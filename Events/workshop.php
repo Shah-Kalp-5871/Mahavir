@@ -1,85 +1,76 @@
-<?php $path_prefix = '../'; include '../includes/header.php'; ?>
+<?php $path_prefix = '../'; $page_title = 'Industry Workshops'; include '../includes/header.php'; ?>
 <style>
-/* ── WORKSHOP COMING SOON PAGE ── */
-.min-h-\[60vh\]{min-height:60vh}.flex{display:flex}.items-center{align-items:center}.bg-gray-50{background:#f8fafc}
-.text-center{text-align:center}.max-w-2xl{max-width:42rem}.mx-auto{margin:0 auto}.space-y-8>*+*{margin-top:2rem}
-.w-24{width:6rem}.h-24{height:6rem}.bg-orange-100{background:var(--primary-light)}.text-orange-500{color:var(--primary)}
-.rounded-full{border-radius:9999px}.text-4xl{font-size:2.25rem}.mx-auto{margin-left:auto;margin-right:auto}
-.shadow-sm{box-shadow:var(--shadow-sm)}
-
-/* Headline */
-.text-5xl{font-size:3rem;font-weight:900;text-transform:uppercase;letter-spacing:-.04em;line-height:1.05}
-.font-black{font-weight:900}.italic{font-style:italic}
-
-/* Dots */
-.gap-2{gap:.5rem}.w-3{width:.75rem}.h-3{height:.75rem}.bg-current{background:currentColor}
-@keyframes bounceDot{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-.animate-bounce{animation:bounceDot 1s ease-in-out infinite}
-.\[animation-delay\:0\.2s\]{animation-delay:.2s}
-.\[animation-delay\:0\.4s\]{animation-delay:.4s}
-
-/* Notify form */
-.pt-10{padding-top:2.5rem}.border-t{border-top:1px solid #e5e7eb}.border-gray-200{border-color:#e5e7eb}
-.mb-4{margin-bottom:1rem}.uppercase{text-transform:uppercase}.tracking-widest{letter-spacing:.1em}.text-sm{font-size:.875rem}
-.flex-col{flex-direction:column}.gap-4{gap:1rem}.max-w-md{max-width:28rem}
-@media(min-width:640px){.sm\:flex-row{flex-direction:row}}
-.flex-grow{flex:1}
-input[type=email]{width:100%;padding:.9rem 1.5rem;border-radius:9999px;border:1px solid #e2e8f0;font-family:var(--font);outline:none;transition:border-color var(--transition),box-shadow var(--transition)}
-input[type=email]:focus{border-color:var(--primary);box-shadow:0 0 0 4px rgba(249,115,22,.12)}
-.btn.btn-primary.px-8.rounded-full{padding:.9rem 2rem;border-radius:9999px}
-
-/* Entry animation */
-@keyframes comingSoonReveal{0%{opacity:0;transform:translateY(40px) scale(.95)}100%{opacity:1;transform:translateY(0) scale(1)}}
-.animate-fade-in{animation:comingSoonReveal .9s .15s both ease}
-
-/* Icon bounce */
-@keyframes iconFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-.w-24.h-24.bg-orange-100{animation:iconFloat 3s ease-in-out infinite}
-
-@media(max-width:768px){.text-5xl{font-size:2.2rem}.section-padding{padding:3rem 0}}
+.what-to-expect-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.75rem;margin-top:3.5rem;}
+.wte-card{background:white;border-radius:var(--r-lg);padding:2rem;border:1px solid var(--border-color);box-shadow:var(--shadow-xs);transition:all var(--t-base);text-align:center;}
+.wte-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-orange-md);border-color:var(--primary);}
+.wte-icon{width:60px;height:60px;border-radius:50%;background:var(--primary-light);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin:0 auto 1.25rem;transition:all var(--t-spring);}
+.wte-card:hover .wte-icon{background:var(--primary);color:white;transform:rotate(8deg) scale(1.1);}
+.wte-card h3{font-size:.97rem;font-weight:800;margin-bottom:.6rem;}
+.wte-card p{font-size:.875rem;color:var(--text-gray);line-height:1.75;}
+.coming-soon-box{background:white;border-radius:var(--r-xl);padding:4rem 2rem;text-align:center;max-width:680px;margin:0 auto;box-shadow:var(--shadow-lg);border:1px solid var(--border-color);}
+.cs-icon{width:96px;height:96px;background:var(--primary-light);color:var(--primary);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.2rem;margin:0 auto 2rem;animation:float 3s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.cs-dots{display:flex;justify-content:center;gap:.5rem;margin:1.5rem 0;}
+.cs-dot{width:10px;height:10px;border-radius:50%;background:var(--primary);animation:dotBounce 1.2s ease-in-out infinite;}
+.cs-dot:nth-child(2){animation-delay:.2s;}
+.cs-dot:nth-child(3){animation-delay:.4s;}
+@keyframes dotBounce{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-8px);opacity:1}}
+.notify-form{display:flex;gap:.75rem;max-width:420px;margin:2rem auto 0;flex-wrap:wrap;justify-content:center;}
+.notify-form input{flex:1;min-width:200px;padding:.9rem 1.25rem;border:1.5px solid var(--border-color);border-radius:50px;outline:none;font-size:.9rem;transition:border-color var(--t-fast);}
+.notify-form input:focus{border-color:var(--primary);}
+@media(max-width:768px){.what-to-expect-grid{grid-template-columns:1fr;}}
 </style>
 
-<!-- PAGE HERO -->
 <section class="page-hero">
     <div class="page-hero-bg">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1600" alt="Workshops">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1920" alt="Industry Workshops">
         <div class="page-hero-overlay"></div>
     </div>
     <div class="container relative z-10">
         <div class="page-hero-content text-center">
-            <h1 class="page-title text-white">Industry Workshops</h1>
-            <nav class="breadcrumb-light justify-center mt-4">
-                <a href="../index.php">Home</a> <i class="fas fa-chevron-right mx-2"></i> <span>Events</span> <i class="fas fa-chevron-right mx-2"></i> <span>Workshop</span>
+            <h1 class="page-title">Industry <span style="color:var(--primary)">Workshops</span></h1>
+            <p class="page-hero-sub" style="margin:0 auto;">"Knowledge is the most precious jewel." — Immersive workshops designed to elevate your jewellery business expertise.</p>
+            <nav class="breadcrumb-light justify-center">
+                <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Events</span><i class="fas fa-chevron-right"></i><span>Workshop</span>
             </nav>
         </div>
     </div>
 </section>
 
-<!-- COMING SOON -->
-<section class="section-padding min-h-[60vh] flex items-center bg-gray-50">
-    <div class="container text-center">
-        <div class="max-w-2xl mx-auto space-y-8 animate-fade-in">
-            <div class="w-24 h-24 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center text-4xl mx-auto shadow-sm">
-                <i class="fas fa-tools"></i>
-            </div>
-            <h2 class="text-5xl font-black italic uppercase tracking-tighter text-gray-900 leading-none">
-                Something <span class="orange">Brilliant</span> <br> is Coming Soon
-            </h2>
-            <p class="text-xl text-gray-600 italic">"Knowledge is the most precious jewel." We are currently polishing our upcoming workshop modules to ensure you get the absolute best expertise.</p>
-            
-            <div class="flex justify-center gap-2 text-orange-500">
-                <span class="w-3 h-3 rounded-full bg-current animate-bounce"></span>
-                <span class="w-3 h-3 rounded-full bg-current animate-bounce [animation-delay:0.2s]"></span>
-                <span class="w-3 h-3 rounded-full bg-current animate-bounce [animation-delay:0.4s]"></span>
-            </div>
+<section class="section-padding bg-light">
+    <div class="container">
+        <div class="section-header centered reveal">
+            <span class="section-label">Workshop Highlights</span>
+            <h2 class="section-title">What to Expect at a <span class="orange">Headway Workshop</span></h2>
+        </div>
+        <div class="what-to-expect-grid">
+            <div class="wte-card reveal delay-1"><div class="wte-icon"><i class="fas fa-chalkboard-teacher"></i></div><h3>Expert-Led Sessions</h3><p>Learn directly from seasoned jewellery industry consultants with decades of on-ground experience.</p></div>
+            <div class="wte-card reveal delay-2"><div class="wte-icon"><i class="fas fa-users"></i></div><h3>Peer Networking</h3><p>Connect with fellow jewellers, share experiences, and build lasting professional relationships.</p></div>
+            <div class="wte-card reveal delay-3"><div class="wte-icon"><i class="fas fa-tools"></i></div><h3>Practical Tools</h3><p>Walk away with templates, frameworks, and action plans you can immediately apply in your business.</p></div>
+        </div>
+    </div>
+</section>
 
-            <div class="pt-10 border-t border-gray-200">
-                <p class="font-bold text-gray-900 mb-4 uppercase tracking-widest text-sm">Stay Informed</p>
-                <div class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                    <input type="email" placeholder="Enter your email" class="flex-grow px-6 py-4 rounded-full border border-gray-200 outline-none focus:border-orange-500 transition-all shadow-sm">
-                    <button class="btn btn-primary px-8 rounded-full font-bold">Notify Me</button>
-                </div>
+<section class="section-padding" style="background:#fff;">
+    <div class="container">
+        <div class="section-header centered reveal" style="margin-bottom:3rem;">
+            <span class="section-label">Coming Soon</span>
+            <h2 class="section-title">Exciting Workshops Are <span class="orange">On the Way</span></h2>
+        </div>
+        <div class="coming-soon-box reveal">
+            <div class="cs-icon"><i class="fas fa-tools"></i></div>
+            <h3 style="font-size:1.6rem;font-weight:900;margin-bottom:.75rem;">Something Brilliant is Coming</h3>
+            <p style="color:var(--text-medium);line-height:1.8;">We are currently polishing our upcoming workshop modules to ensure you receive the absolute best jewellery business expertise. Stay tuned for exciting announcements!</p>
+            <div class="cs-dots">
+                <span class="cs-dot"></span>
+                <span class="cs-dot"></span>
+                <span class="cs-dot"></span>
             </div>
+            <p style="font-size:.82rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--text-gray);">Get notified when we launch</p>
+            <form class="notify-form" onsubmit="return false;">
+                <input type="email" placeholder="Your email address">
+                <button type="submit" class="btn btn-primary">Notify Me <i class="fas fa-bell"></i></button>
+            </form>
         </div>
     </div>
 </section>

@@ -1,14 +1,21 @@
-<!-- FOOTER -->
+<!-- ════════ FOOTER ════════ -->
 <footer class="footer">
     <div class="container">
         <div class="footer-top">
-            <div class="footer-logo">
+            <!-- Brand -->
+            <div class="footer-brand">
                 <div class="logo-wrapper">
                     <div class="logo-icon footer-logo-icon">
                         <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="80" height="80" rx="4" fill="#f97316"/>
-                            <path d="M20 20 L20 60 M20 40 L60 40 M60 20 L60 60" stroke="white" stroke-width="10" stroke-linecap="round"/>
-                            <path d="M30 55 L40 70 L50 55" fill="white"/>
+                            <rect width="80" height="80" rx="8" fill="url(#footerLogoGrad)"/>
+                            <path d="M18 18 L18 62 M18 40 L62 40 M62 18 L62 62" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30 54 L40 68 L50 54" fill="rgba(255,255,255,0.9)"/>
+                            <defs>
+                                <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="80" y2="80">
+                                    <stop offset="0%" stop-color="#f97316"/>
+                                    <stop offset="100%" stop-color="#ea580c"/>
+                                </linearGradient>
+                            </defs>
                         </svg>
                     </div>
                     <div class="logo-text">
@@ -17,125 +24,181 @@
                         <span class="logo-tag">Solution@100%<sup>®</sup></span>
                     </div>
                 </div>
+                <p>India's #1 jewellery business coaching & consulting firm. We partner with brands to build, grow, and sustain remarkable success.</p>
             </div>
-            <div class="footer-links-group">
-                <a href="#">About Us</a>
-                <a href="#">Meet our team</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="footer-links-group">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Payment, R &amp; C Policy</a>
-                <a href="#">Terms &amp; Conditions</a>
-            </div>
-            <div class="footer-contact-info">
-                <div class="footer-contact-item">
-                    <div class="footer-icon-circle"><i class="fas fa-phone"></i></div>
-                    <span>+91 70469 00096</span>
+
+            <!-- Quick Links -->
+            <div>
+                <p class="footer-heading">Quick Links</p>
+                <div class="footer-links-group">
+                    <a href="<?php echo $path_prefix; ?>index.php">Home</a>
+                    <a href="<?php echo $path_prefix; ?>services/about.php">About Us</a>
+                    <a href="<?php echo $path_prefix; ?>Our Company/team.php">Meet Our Team</a>
+                    <a href="<?php echo $path_prefix; ?>Initiatives/Initiatives.php">Initiatives</a>
+                    <a href="<?php echo $path_prefix; ?>contact.php">Contact Us</a>
                 </div>
-                <div class="footer-contact-item">
-                    <div class="footer-icon-circle"><i class="fas fa-envelope"></i></div>
-                    <span>info@headway.com</span>
+            </div>
+
+            <!-- Legal -->
+            <div>
+                <p class="footer-heading">Legal</p>
+                <div class="footer-links-group">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Payment Policy</a>
+                    <a href="#">Refund & Cancellation</a>
+                    <a href="#">Terms & Conditions</a>
                 </div>
-                <div class="footer-contact-item">
-                    <div class="footer-icon-circle"><i class="fas fa-map-marker-alt"></i></div>
-                    <span>101-Shree Kashi Parekh Complex, First Floor, Behind Bhagavati Chambers, Near Swastik Cross Rd, C G Road, Navrangpura, Ahmedabad, Gujarat 380009</span>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <p class="footer-heading">Get In Touch</p>
+                <div class="footer-contact-info">
+                    <div class="footer-contact-item">
+                        <div class="footer-icon-circle"><i class="fas fa-phone"></i></div>
+                        <span>+91 70469 00096<br><small style="color:rgba(255,255,255,0.4)">Mon–Sat 10AM–7PM</small></span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-icon-circle"><i class="fas fa-envelope"></i></div>
+                        <span>info@headway.org.in</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <span>101-Shree Kashi Parekh Complex, Near Swastik Cross Rd, CG Road, Navrangpura, Ahmedabad, Gujarat 380009</span>
+                    </div>
                 </div>
             </div>
         </div>
+
         <hr class="footer-divider">
+
         <div class="footer-bottom">
-            <p class="footer-copy">Copyright © 2026 Headway Business Solutions LLP. All rights reserved</p>
+            <p class="footer-copy">Copyright &copy; 2026 Headway Business Solutions LLP. All rights reserved.</p>
             <div class="footer-social">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="X/Twitter"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
     </div>
 </footer>
 
+<!-- ════════ GLOBAL SCRIPTS ════════ -->
 <script>
-// Mobile menu toggle
-document.getElementById('mobileMenuBtn').addEventListener('click', function() {
-    const navLinks = document.getElementById('navLinks');
-    navLinks.classList.toggle('open');
+// ── Mobile menu toggle ──
+const mobileBtn  = document.getElementById('mobileMenuBtn');
+const navLinks   = document.getElementById('navLinks');
+
+mobileBtn.addEventListener('click', function() {
+    mobileBtn.classList.toggle('active');
+    const isOpen = navLinks.classList.toggle('open');
+    mobileBtn.setAttribute('aria-expanded', isOpen);
 });
 
-// Dropdown on click for mobile
-document.querySelectorAll('.has-dropdown > a').forEach(link => {
+// ── Mobile dropdown toggle ──
+const dropdowns = document.querySelectorAll('.has-dropdown');
+dropdowns.forEach(dropdown => {
+    const link = dropdown.querySelector('a');
     link.addEventListener('click', function(e) {
         if (window.innerWidth < 1024) {
             e.preventDefault();
-            const parent = this.parentElement;
-            parent.classList.toggle('dropdown-open');
+            e.stopImmediatePropagation();
+            const isOpen = dropdown.classList.contains('dropdown-open');
+            // Close all other dropdowns
+            dropdowns.forEach(d => d.classList.remove('dropdown-open'));
+            // Toggle current if it wasn't already open
+            if (!isOpen) { 
+                dropdown.classList.add('dropdown-open'); 
+            }
+        }
+    });
+});
+// Prevent sub-link clicks from bubbling up to the dropdown toggle
+document.querySelectorAll('.dropdown a').forEach(subLink => {
+    subLink.addEventListener('click', function(e) {
+        if (window.innerWidth < 1024) {
+            e.stopPropagation();
         }
     });
 });
 
-// Sticky navbar
-window.addEventListener('scroll', function() {
-    const navbar = document.getElementById('navbar');
-    if (window.scrollY > 10) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
+// Close mobile menu on outside click
+document.addEventListener('click', function(e) {
+    if (!mobileBtn.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('open');
+        mobileBtn.classList.remove('active');
+        mobileBtn.setAttribute('aria-expanded', 'false');
     }
 });
 
-// Animate stats counter
-function animateCounters() {
-    document.querySelectorAll('.stat-number').forEach(counter => {
-        const target = parseInt(counter.textContent);
-        const suffix = counter.textContent.replace(/[0-9]/g, '');
-        let count = 0;
-        const increment = Math.ceil(target / 50);
-        const timer = setInterval(() => {
-            count += increment;
-            if (count >= target) {
-                count = target;
-                clearInterval(timer);
+// ── Sticky navbar scroll effect ──
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', function() {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+}, { passive: true });
+
+// ── Universal scroll reveal ──
+const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+if (revealElements.length) {
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                revealObserver.unobserve(entry.target);
             }
-            counter.textContent = count + suffix;
-        }, 30);
-    });
+        });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    revealElements.forEach(el => revealObserver.observe(el));
 }
 
-// Trigger counter animation when stats section is in view
-const statsSection = document.querySelector('.stats-section');
-const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-        animateCounters();
-        observer.disconnect();
-    }
-}, { threshold: 0.3 });
-if (statsSection) observer.observe(statsSection);
+// ── Stats counter animation ──
+function animateCounter(el) {
+    const rawText = el.textContent.trim();
+    const numMatch = rawText.match(/[\d,]+/);
+    if (!numMatch) return;
+    const target = parseInt(numMatch[0].replace(/,/g, ''));
+    const suffix = rawText.replace(/[\d,]/g, '');
+    let count = 0;
+    const duration = 1800;
+    const steps = 60;
+    const increment = target / steps;
+    const interval = duration / steps;
+    const timer = setInterval(() => {
+        count += increment;
+        if (count >= target) { count = target; clearInterval(timer); }
+        el.textContent = Math.round(count).toLocaleString() + suffix;
+    }, interval);
+}
+
+const statsSection = document.querySelector('.stats-section, .stats-grid');
+if (statsSection) {
+    const statsObserver = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+            document.querySelectorAll('.stat-number').forEach(animateCounter);
+            statsObserver.disconnect();
+        }
+    }, { threshold: 0.3 });
+    statsObserver.observe(statsSection);
+}
 </script>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    const heroSwiper = new Swiper('.hero-swiper', {
+// Hero Swiper (only init if exists)
+if (document.querySelector('.hero-swiper')) {
+    new Swiper('.hero-swiper', {
         loop: true,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+        autoplay: { delay: 5500, disableOnInteraction: false },
+        pagination: { el: '.swiper-pagination', clickable: true },
+        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
         effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        }
+        fadeEffect: { crossFade: true },
+        speed: 900,
     });
+}
 </script>
 
 </body>
