@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php $path_prefix = ''; include 'includes/header.php'; ?>
 
 <!-- HERO SECTION SLIDER -->
 <section class="hero-section">

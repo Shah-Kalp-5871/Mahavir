@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headway Business Solutions LLP</title>
     <meta name="description" content="India's No.1 Jewellery Business Consultant & Coach - Headway Business Solutions LLP">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo $path_prefix; ?>style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
 <!-- NAVBAR -->
 <nav class="navbar" id="navbar">
     <div class="nav-container">
-        <a href="#" class="nav-logo">
+        <a href="<?php echo $path_prefix; ?>index.php" class="nav-logo">
             <div class="logo-wrapper">
                 <div class="logo-icon">
                     <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,36 +40,42 @@
             <i class="fas fa-bars"></i>
         </button>
         <ul class="nav-links" id="navLinks">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="<?php echo $path_prefix; ?>index.php">Home</a></li>
+            <li><a href="<?php echo $path_prefix; ?>services/about.php">About Us</a></li>
             <li class="has-dropdown">
                 <a href="#">Services <i class="fas fa-chevron-down"></i></a>
                 <ul class="dropdown">
-                    <li><a href="#">Startup</a></li>
-                    <li><a href="#">Make My Dreams</a></li>
-                    <li><a href="#">Jewellery Vidhyapith</a></li>
-                    <li><a href="#">Individual Development Program</a></li>
-                    <li><a href="#">Intelligent HR</a></li>
-                    <li><a href="#">Mahavir IT</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>services/startup.php">Startup</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>services/makemydreams.php">Make My Dreams</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>services/jewellery-vidhyapith.php">Jewellery Vidhyapith</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>services/idp.php">Individual Development Program</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>services/hr.php">Intelligent HR</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>services/mahavir-it.php">Mahavir IT</a></li>
                 </ul>
             </li>
-            <li><a href="#">Initiatives</a></li>
+            <li><a href="<?php echo $path_prefix; ?>Initiatives/Initiatives.php">Initiatives</a></li>
             <li class="has-dropdown">
                 <a href="#">Our Company <i class="fas fa-chevron-down"></i></a>
                 <ul class="dropdown">
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Our Team</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>Our Company/gallery.php">Gallery</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>Our Company/team.php">Our Team</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
                 <a href="#">Career <i class="fas fa-chevron-down"></i></a>
                 <ul class="dropdown">
-                    <li><a href="#">Staff Required</a></li>
-                    <li><a href="#">Job Required</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>Career/job-required.php">Staff Required</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>Career/job-required.php">Job Required</a></li>
                 </ul>
             </li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Event</a></li>
+            <li><a href="<?php echo $path_prefix; ?>contact.php">Contact Us</a></li>
+            <li class="has-dropdown">
+                <a href="#">Event <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="<?php echo $path_prefix; ?>Events/lucky-draw.php">Lucky Draw</a></li>
+                    <li><a href="<?php echo $path_prefix; ?>Events/workshop.php">Workshop</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </nav>
