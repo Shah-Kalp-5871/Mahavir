@@ -1,11 +1,11 @@
 <?php $path_prefix = '../'; $page_title = 'Lucky Draw'; include '../includes/header.php'; ?>
 <style>
-.lucky-hero-inner{background:linear-gradient(135deg,#0f172a 0%,#1e1b4b 100%);border-radius:var(--r-2xl);overflow:hidden;padding:4rem;position:relative;text-align:center;}
+.lucky-hero-inner{background:linear-gradient(135deg,#fff7ed 0%,#ffedd5 50%,#fef3c7 100%);border-radius:var(--r-2xl);overflow:hidden;padding:4rem;position:relative;text-align:center;border:1px solid rgba(249,115,22,0.15);}
 .lucky-hero-inner::before{content:'';position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=1600') center/cover;opacity:.08;}
 .lucky-trophy{font-size:4rem;margin-bottom:1.5rem;display:block;animation:float 3s ease-in-out infinite;}
 @keyframes float{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-16px) rotate(5deg)}}
-.lucky-title{font-size:clamp(2rem,4vw,3.2rem);font-weight:900;color:white;margin-bottom:1rem;position:relative;z-index:1;}
-.lucky-subtitle{color:rgba(255,255,255,.75);font-size:1.05rem;line-height:1.8;max-width:560px;margin:0 auto;position:relative;z-index:1;}
+.lucky-title{font-size:clamp(2rem,4vw,3.2rem);font-weight:900;color:var(--text-dark);margin-bottom:1rem;position:relative;z-index:1;}
+.lucky-subtitle{color:var(--text-medium);font-size:1.05rem;line-height:1.8;max-width:560px;margin:0 auto;position:relative;z-index:1;}
 .prizes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3.5rem;}
 .prize-card{background:white;border-radius:var(--r-xl);padding:2.5rem;text-align:center;box-shadow:var(--shadow-md);border:2px solid transparent;transition:all var(--t-base);position:relative;overflow:hidden;}
 .prize-card::before{content:'';position:absolute;top:-40px;right:-40px;width:120px;height:120px;border-radius:50%;pointer-events:none;transition:transform var(--t-base);}

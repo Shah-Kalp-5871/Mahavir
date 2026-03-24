@@ -3,17 +3,18 @@
 <style>
 /* ── INDEX PAGE ── */
 /* Services Section */
-.services-section { background: var(--bg-warm); padding: var(--section-pad) 0; }
+.services-section { background: var(--bg-warm); padding: var(--section-pad) 0; overflow: hidden;}
 .services-intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
 .services-intro-image { position: relative; border-radius: var(--r-xl); overflow: hidden; box-shadow: var(--shadow-xl); }
 .services-intro-image img { width: 100%; height: 480px; object-fit: cover; transition: transform var(--t-slow); display: block; }
 .services-intro-image:hover img { transform: scale(1.04); }
 .services-intro-image-badge {
     position: absolute; bottom: 1.5rem; left: 1.5rem;
-    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-    color: white; border-radius: var(--r-md); padding: 1rem 1.5rem;
-    box-shadow: var(--shadow-orange-md); font-weight: 700; font-size: 0.85rem;
+    background: var(--primary-light);
+    color: var(--primary); border-radius: var(--r-md); padding: 1rem 1.5rem;
+    box-shadow: var(--shadow-sm); font-weight: 700; font-size: 0.85rem;
     display: flex; align-items: center; gap: 0.5rem;
+    border: 1px solid rgba(249,115,22,0.2);
 }
 .services-items-list { display: flex; flex-direction: column; gap: 1.25rem; margin-top: 2rem; }
 .service-list-item {
@@ -34,7 +35,7 @@
 .service-list-body p  { font-size: 0.85rem; color: var(--text-gray); line-height: 1.6; }
 
 /* Founder Section */
-.founder-section { padding: var(--section-pad) 0; background: #fff; }
+.founder-section { padding: var(--section-pad) 0; background: #fff; overflow: hidden; }
 .founder-card-inner {
     position: relative; border-radius: var(--r-xl); overflow: hidden;
     box-shadow: var(--shadow-xl); min-height: 420px;
@@ -42,22 +43,22 @@
 .founder-card-inner > img { width: 100%; height: 480px; object-fit: cover; object-position: center top; display: block; }
 .founder-card-overlay {
     position: absolute; inset: 0;
-    background: linear-gradient(to right, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0.6) 55%, transparent 100%);
+    background: linear-gradient(to right, rgba(255,247,237,0.95) 0%, rgba(255,247,237,0.7) 45%, transparent 100%);
     display: flex; align-items: center;
     padding: 4rem;
 }
-.founder-card-text { max-width: 500px; color: white; }
-.founder-card-text .section-label { background: rgba(249,115,22,0.2); border: 1px solid rgba(249,115,22,0.35); color: var(--primary); }
-.founder-card-text h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 900; color: white; margin-bottom: 0.5rem; }
-.founder-card-text .founder-role { color: var(--primary); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 1.5rem; }
+.founder-card-text { max-width: 500px; color: var(--text-dark); }
+.founder-card-text .section-label { background: var(--primary-light); border: 1px solid rgba(249,115,22,0.25); color: var(--primary); }
+.founder-card-text h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 900; color: var(--text-dark); margin-bottom: 0.5rem; }
+.founder-card-text .founder-role { color: var(--primary-dark); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 1.5rem; }
 .founder-card-divider { width: 50px; height: 4px; background: linear-gradient(90deg, var(--primary), transparent); border-radius: 2px; margin-bottom: 1.5rem; }
-.founder-card-text blockquote { font-size: 1.05rem; color: rgba(255,255,255,0.82); line-height: 1.8; font-style: italic; }
+.founder-card-text blockquote { font-size: 1.05rem; color: var(--text-medium); line-height: 1.8; font-style: italic; }
 
 /* Who We Are */
-.who-section { background: var(--bg-light); padding: var(--section-pad) 0; }
+.who-section { background: var(--bg-light); padding: var(--section-pad) 0; overflow: hidden; }
 
 /* Clients Section */
-.clients-section { padding: var(--section-pad) 0; background: white; }
+.clients-section { padding: var(--section-pad) 0; background: white; overflow: hidden; }
 .clients-grid {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3rem;
 }
@@ -76,7 +77,7 @@
 .client-info p { font-size: 0.8rem; color: var(--text-gray); display: flex; align-items: center; gap: 0.3rem; }
 
 /* Contact CTA Section */
-.contact-cta-section { padding: var(--section-pad) 0; background: var(--bg-warm); }
+.contact-cta-section { padding: var(--section-pad) 0; background: var(--bg-warm); overflow: hidden; }
 .contact-cta-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 5rem; align-items: start; }
 .contact-details { display: flex; flex-direction: column; gap: 1.25rem; margin-top: 2rem; }
 .contact-item { display: flex; align-items: center; gap: 1rem; }
@@ -395,7 +396,7 @@
             </div>
 
             <!-- Contact Form -->
-            <div class="contact-form-card reveal-right">
+            <div class="contact-form-card reveal-right" style="overflow: hidden;">
                 <h3>Your Inquiry, <span class="orange">Our Expertise</span></h3>
                 <p class="card-sub">Your Questions, Our Solutions: Crafting Success Together</p>
                 <form>

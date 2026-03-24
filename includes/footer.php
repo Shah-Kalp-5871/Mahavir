@@ -100,24 +100,31 @@ mobileBtn.addEventListener('click', function() {
 const dropdowns = document.querySelectorAll('.has-dropdown');
 dropdowns.forEach(dropdown => {
     const link = dropdown.querySelector('a');
-    link.addEventListener('click', function(e) {
-        if (window.innerWidth < 1024) {
-            e.preventDefault();
-            e.stopImmediatePropagation();
-            const isOpen = dropdown.classList.contains('dropdown-open');
-            // Close all other dropdowns
-            dropdowns.forEach(d => d.classList.remove('dropdown-open'));
-            // Toggle current if it wasn't already open
-            if (!isOpen) { 
-                dropdown.classList.add('dropdown-open'); 
+    if (link) {
+        link.addEventListener('click', function(e) {
+            if (window.innerWidth <= 1024) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const isCurrentOpen = dropdown.classList.contains('dropdown-open');
+
+                // Close all other dropdowns
+                dropdowns.forEach(d => {
+                    if (d !== dropdown) {
+                        d.classList.remove('dropdown-open');
+                    }
+                });
+
+                // Toggle current one
+                dropdown.classList.toggle('dropdown-open');
             }
-        }
-    });
+        });
+    }
 });
 // Prevent sub-link clicks from bubbling up to the dropdown toggle
 document.querySelectorAll('.dropdown a').forEach(subLink => {
     subLink.addEventListener('click', function(e) {
-        if (window.innerWidth < 1024) {
+        if (window.innerWidth <= 1024) {
             e.stopPropagation();
         }
     });
@@ -129,6 +136,8 @@ document.addEventListener('click', function(e) {
         navLinks.classList.remove('open');
         mobileBtn.classList.remove('active');
         mobileBtn.setAttribute('aria-expanded', 'false');
+        // Close all dropdowns when menu is closed
+        dropdowns.forEach(d => d.classList.remove('dropdown-open'));
     }
 });
 

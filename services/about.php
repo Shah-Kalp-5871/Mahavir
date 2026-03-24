@@ -5,7 +5,7 @@
 /* Hero */
 .about-hero {
     padding-top: 72px;
-    background: linear-gradient(155deg, #0f172a 0%, #1c1917 40%, #0f172a 100%);
+    background: linear-gradient(155deg, #fff7ed 0%, #ffedd5 40%, #fef3c7 100%);
     min-height: 60vh;
     display: flex; align-items: center;
     position: relative; overflow: hidden;
@@ -35,15 +35,19 @@
 }
 .about-title {
     font-size: clamp(3rem, 5.5vw, 5rem);
-    font-weight: 900; color: white; line-height: 1.05;
+    font-weight: 900; color: var(--text-dark); line-height: 1.05;
     letter-spacing: -0.02em; margin-bottom: 1.25rem;
 }
-.about-hero-desc { color: rgba(255,255,255,0.7); font-size: 1.05rem; line-height: 1.8; max-width: 480px; }
+.about-hero-desc { color: var(--text-medium); font-size: 1.05rem; line-height: 1.8; max-width: 480px; }
 .about-hero-image { 
     border-radius: var(--r-xl); overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,0.5);
     animation: slideInRight 0.9s 0.3s both ease;
 }
 @keyframes slideInRight { from{opacity:0;transform:translateX(50px)} to{opacity:1;transform:translateX(0)} }
+.about-hero .breadcrumb-light { color: var(--text-medium); }
+.about-hero .breadcrumb-light a { color: var(--text-dark); }
+.about-hero .breadcrumb-light a:hover { color: var(--primary); }
+.about-hero .breadcrumb-light .fa-chevron-right { color: var(--text-gray); }
 .about-hero-image img { width: 100%; height: 420px; object-fit: cover; display: block; }
 .about-hero-text { animation: slideInLeft 0.9s 0.1s both ease; }
 @keyframes slideInLeft { from{opacity:0;transform:translateX(-50px)} to{opacity:1;transform:translateX(0)} }

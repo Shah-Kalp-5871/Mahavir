@@ -8,11 +8,12 @@
 .reg-submit{width:100%;padding:1.1rem 2rem;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;font-weight:700;font-size:1rem;border:none;border-radius:var(--r-md);cursor:pointer;transition:all var(--t-spring);display:flex;align-items:center;justify-content:center;gap:.5rem;box-shadow:var(--shadow-orange-sm);}
 .reg-submit:hover{transform:translateY(-3px);box-shadow:var(--shadow-orange-md);}
 .event-info-card{position:sticky;top:90px;}
-.event-info-inner{background:linear-gradient(155deg,#0f172a,#1e293b);border-radius:var(--r-xl);padding:2.5rem;color:white;margin-bottom:1.5rem;}
+.event-info-inner{background:linear-gradient(155deg,#fff7ed,#ffedd5);border-radius:var(--r-xl);padding:2.5rem;color:var(--text-dark);margin-bottom:1.5rem;border:1px solid rgba(249,115,22,0.15);}
+.event-info-inner h3{color:var(--text-dark)!important;}
 .event-detail{display:flex;gap:.9rem;align-items:flex-start;margin-bottom:1.5rem;}
 .event-detail-icon{width:40px;height:40px;border-radius:var(--r-sm);background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.25);display:flex;align-items:center;justify-content:center;color:var(--primary);flex-shrink:0;font-size:.9rem;}
-.event-detail-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.45);}
-.event-detail-val{font-size:.95rem;color:rgba(255,255,255,.88);font-weight:500;margin-top:.2rem;}
+.event-detail-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--text-gray);}
+.event-detail-val{font-size:.95rem;color:var(--text-dark);font-weight:500;margin-top:.2rem;}
 .event-benefits{background:white;border-radius:var(--r-xl);padding:2rem;box-shadow:var(--shadow-md);border:1px solid var(--border-color);}
 .benefit-item{display:flex;gap:.75rem;align-items:center;padding:.65rem 0;border-bottom:1px solid var(--border-color);}
 .benefit-item:last-child{border-bottom:none;}
@@ -94,7 +95,7 @@
                     </div>
                     <div class="event-detail">
                         <div class="event-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <div><div class="event-detail-label">Location</div><div class="event-detail-val">Ahmedabad, Gujarat<br><span style="color:rgba(255,255,255,.5);font-size:.82rem;">Full address sent on confirmation</span></div></div>
+                        <div><div class="event-detail-label">Location</div><div class="event-detail-val">Ahmedabad, Gujarat<br><span style="color:var(--text-gray);font-size:.82rem;">Full address sent on confirmation</span></div></div>
                     </div>
                     <div class="event-detail">
                         <div class="event-detail-icon"><i class="fas fa-clock"></i></div>

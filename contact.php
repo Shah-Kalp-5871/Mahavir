@@ -4,7 +4,7 @@
 .contact-form-section { padding: var(--section-pad) 0; background: var(--bg-light); }
 .contact-layout { display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: start; }
 .contact-info-card {
-    background: linear-gradient(155deg, #0f172a, #1e293b);
+    background: linear-gradient(155deg, #fff7ed, #ffedd5);
     border-radius: var(--r-xl); padding: 3rem;
     position: relative; overflow: hidden;
     box-shadow: var(--shadow-xl);
@@ -21,8 +21,8 @@
     width: 180px; height: 180px; border-radius: 50%;
     background: rgba(249,115,22,0.08);
 }
-.contact-info-card h2 { color: white; font-size: 1.6rem; font-weight: 800; margin-bottom: 0.75rem; position: relative; z-index: 1; }
-.contact-info-card .sub { color: rgba(255,255,255,0.65); font-size: 0.9rem; line-height: 1.7; margin-bottom: 2.5rem; position: relative; z-index: 1; }
+.contact-info-card h2 { color: var(--text-dark); font-size: 1.6rem; font-weight: 800; margin-bottom: 0.75rem; position: relative; z-index: 1; }
+.contact-info-card .sub { color: var(--text-medium); font-size: 0.9rem; line-height: 1.7; margin-bottom: 2.5rem; position: relative; z-index: 1; }
 .contact-info-items { display: flex; flex-direction: column; gap: 1.5rem; position: relative; z-index: 1; }
 .contact-info-item { display: flex; gap: 1rem; align-items: flex-start; }
 .ci-icon {
@@ -31,15 +31,15 @@
     display: flex; align-items: center; justify-content: center;
     color: var(--primary); font-size: 1rem; flex-shrink: 0;
 }
-.ci-label { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.45); }
-.ci-value { font-size: 0.95rem; color: rgba(255,255,255,0.88); font-weight: 500; margin-top: 0.2rem; line-height: 1.5; }
-.contact-social { display: flex; gap: 0.6rem; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08); position: relative; z-index: 1; }
+.ci-label { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-gray); }
+.ci-value { font-size: 0.95rem; color: var(--text-dark); font-weight: 500; margin-top: 0.2rem; line-height: 1.5; }
+.contact-social { display: flex; gap: 0.6rem; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(249,115,22,0.2); position: relative; z-index: 1; }
 .contact-social a {
     width: 38px; height: 38px; border-radius: 50%;
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(249,115,22,0.12);
+    border: 1px solid rgba(249,115,22,0.25);
     display: flex; align-items: center; justify-content: center;
-    color: rgba(255,255,255,0.6); font-size: 0.8rem;
+    color: var(--primary); font-size: 0.8rem;
     transition: all var(--t-spring);
 }
 .contact-social a:hover { background: var(--primary); border-color: var(--primary); color: white; transform: translateY(-4px); }
