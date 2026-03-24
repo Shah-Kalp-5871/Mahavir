@@ -38,7 +38,7 @@
             <div class="split-content reveal-left">
                 <span class="section-label">The IDP Difference</span>
                 <h2 class="section-title">Investing in Your <span class="orange">Greatest Asset — You</span></h2>
-                <p>The Individual Development Program (IDP) is Headway's premium, fully personalised coaching experience. Unlike generic training, the IDP is built around your specific strengths, weaknesses, ambitions, and challenges as a jewellery business professional.</p>
+                <p>The Individual Development Program (IDP) is Mahavir's premium, fully personalised coaching experience. Unlike generic training, the IDP is built around your specific strengths, weaknesses, ambitions, and challenges as a business professional.</p>
                 <p style="margin-top:1rem;">Through structured assessments, one-on-one sessions, and practical challenges, we unlock performance levels that directly translate to measurable business growth.</p>
                 <a href="../contact.php" class="btn btn-primary" style="margin-top:2rem;">Apply for IDP <i class="fas fa-arrow-right"></i></a>
             </div>
@@ -57,12 +57,12 @@
             <h2 class="section-title">Comprehensive <span class="orange">Development Areas</span></h2>
         </div>
         <div class="idp-grid">
-            <div class="sf-card reveal delay-1"><div class="sf-icon"><i class="fas fa-brain"></i></div><h3>Leadership Mindset</h3><p>Develop the mental frameworks, decision-making clarity, and resilience of a world-class jewellery business leader.</p></div>
-            <div class="sf-card reveal delay-2"><div class="sf-icon"><i class="fas fa-comments"></i></div><h3>Communication Skills</h3><p>Master negotiation, team communication, customer interaction, and stakeholder management techniques.</p></div>
-            <div class="sf-card reveal delay-3"><div class="sf-icon"><i class="fas fa-chart-line"></i></div><h3>Performance Management</h3><p>Set personal KPIs, build accountability systems, and consistently track and improve your performance metrics.</p></div>
-            <div class="sf-card reveal delay-4"><div class="sf-icon"><i class="fas fa-balance-scale"></i></div><h3>Work-Life Integration</h3><p>Build sustainable practices that allow you to be fully present as both a business leader and in your personal life.</p></div>
-            <div class="sf-card reveal delay-5"><div class="sf-icon"><i class="fas fa-puzzle-piece"></i></div><h3>Problem Solving</h3><p>Develop structured frameworks to tackle complex business challenges with confidence and creative thinking.</p></div>
-            <div class="sf-card reveal delay-6"><div class="sf-icon"><i class="fas fa-star"></i></div><h3>Personal Branding</h3><p>Build your reputation as a thought leader in the jewellery industry — within your team and your market.</p></div>
+            <div class="sf-card reveal delay-1"><div class="sf-icon"><i class="fas fa-calendar-alt"></i></div><h3>Eight Monthly Visits</h3><p>Every visit 4 hrs at your venue (In Ahmedabad) to ensure consistent progress and hands-on guidance.</p></div>
+            <div class="sf-card reveal delay-2"><div class="sf-icon"><i class="fas fa-map-marked-alt"></i></div><h3>Four Full-Day Visits</h3><p>Present for full day at your venue (Out of Ahmedabad) for deep-dive training and system implementation.</p></div>
+            <div class="sf-card reveal delay-3"><div class="sf-icon"><i class="fas fa-search-plus"></i></div><h3>Bi-Monthly Reviews</h3><p>Two comprehensive reviews in a month at the client's floor to monitor progress and adjust strategies.</p></div>
+            <div class="sf-card reveal delay-4"><div class="sf-icon"><i class="fas fa-users"></i></div><h3>Expert Meetings</h3><p>One monthly meeting by our professional expert at your floor for high-level strategic alignment.</p></div>
+            <div class="sf-card reveal delay-5"><div class="sf-icon"><i class="fas fa-glass-cheers"></i></div><h3>Client Entertain Events</h3><p>Specialized guidance on organizing and managing effective client entertainment events.</p></div>
+            <div class="sf-card reveal delay-6"><div class="sf-icon"><i class="fas fa-cut"></i></div><h3>Store Grooming</h3><p>Complete store grooming services to ensure your business environment reflects your brand's excellence.</p></div>
         </div>
     </div>
 </section>

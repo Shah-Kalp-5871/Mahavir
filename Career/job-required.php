@@ -22,13 +22,13 @@
 
 <section class="page-hero">
     <div class="page-hero-bg">
-        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&q=80&w=1920" alt="Careers at Headway">
+        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&q=80&w=1920" alt="Careers at Mahavir">
         <div class="page-hero-overlay"></div>
     </div>
     <div class="container relative z-10">
         <div class="page-hero-content text-center">
-            <h1 class="page-title">Careers at <span style="color:var(--primary)">Headway</span></h1>
-            <p class="page-hero-sub" style="margin:0 auto;">Join a team that's shaping the future of India's jewellery industry — one business at a time.</p>
+            <h1 class="page-title">Careers at <span style="color:var(--primary)">Mahavir</span></h1>
+            <p class="page-hero-sub" style="margin:0 auto;">Join a team that's shaping the future of modern business consultancy — one client at a time.</p>
             <nav class="breadcrumb-light justify-center">
                 <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Career</span><i class="fas fa-chevron-right"></i><span>Open Positions</span>
             </nav>
@@ -41,7 +41,7 @@
         <div class="section-header reveal">
             <span class="section-label">Open Positions</span>
             <h2 class="section-title">We're <span class="orange">Hiring!</span></h2>
-            <p class="section-subtitle">Explore current openings across departments and find your perfect role at Headway.</p>
+            <p class="section-subtitle">Explore current openings across departments and find your perfect role at Mahavir.</p>
         </div>
         <div class="jobs-filter reveal">
             <span class="job-tag active">All Departments</span>
@@ -55,7 +55,7 @@
         <div class="job-card reveal delay-1">
             <div class="job-card-left">
                 <span class="job-dept">Consulting</span>
-                <h3>Senior Jewellery Business Consultant</h3>
+                <h3>Senior Business Consultant</h3>
                 <p style="font-size:.9rem;color:var(--text-medium);">A senior role managing client portfolios, delivering strategic consulting, and mentoring junior consultants across Gujarat.</p>
                 <div class="job-meta">
                     <span class="job-meta-item"><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat</span>
@@ -69,7 +69,7 @@
             <div class="job-card-left">
                 <span class="job-dept">Sales</span>
                 <h3>Business Development Manager</h3>
-                <p style="font-size:.9rem;color:var(--text-medium);">Identify, engage, and onboard new jewellery business clients across Tier 2 and Tier 3 cities in Gujarat and Rajasthan.</p>
+                <p style="font-size:.9rem;color:var(--text-medium);">Identify, engage, and onboard new business clients across Tier 2 and Tier 3 cities in India.</p>
                 <div class="job-meta">
                     <span class="job-meta-item"><i class="fas fa-map-marker-alt"></i> Multiple Locations</span>
                     <span class="job-meta-item"><i class="fas fa-clock"></i> Full-Time</span>
@@ -81,8 +81,8 @@
         <div class="job-card reveal delay-3">
             <div class="job-card-left">
                 <span class="job-dept">Training</span>
-                <h3>Jewellery Vidhyapith Trainer</h3>
-                <p style="font-size:.9rem;color:var(--text-medium);">Facilitate training workshops and one-on-one coaching sessions for jewellery business owners and their staff teams.</p>
+                <h3>Business Induction Trainer</h3>
+                <p style="font-size:.9rem;color:var(--text-medium);">Facilitate training workshops and one-on-one coaching sessions for business owners and their staff teams.</p>
                 <div class="job-meta">
                     <span class="job-meta-item"><i class="fas fa-map-marker-alt"></i> Ahmedabad (Travel Required)</span>
                     <span class="job-meta-item"><i class="fas fa-clock"></i> Full-Time</span>
@@ -112,8 +112,8 @@
                         <div><label class="form-label">Phone Number</label><input type="tel" placeholder="Your phone number"></div>
                         <div><label class="form-label">Position Applied For</label><input type="text" placeholder="e.g. Senior Consultant"></div>
                     </div>
-                    <div><label class="form-label">Years of Experience</label><input type="text" placeholder="e.g. 5 years in jewellery consulting"></div>
-                    <div><label class="form-label">Cover Message *</label><textarea rows="4" placeholder="Tell us why you'd be a great fit at Headway..."></textarea></div>
+                    <div><label class="form-label">Years of Experience</label><input type="text" placeholder="e.g. 5 years in business consulting"></div>
+                    <div><label class="form-label">Cover Message *</label><textarea rows="4" placeholder="Tell us why you'd be a great fit at Mahavir..."></textarea></div>
                     <button type="submit" style="padding:1rem 2rem;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;font-weight:700;border-radius:50px;border:none;cursor:pointer;transition:all var(--t-spring);font-size:.95rem;display:flex;align-items:center;justify-content:center;gap:.5rem;">
                         Submit Application <i class="fas fa-paper-plane"></i>
                     </button>

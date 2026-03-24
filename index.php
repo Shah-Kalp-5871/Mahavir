@@ -177,7 +177,7 @@
             </div>
             <div class="stat-item reveal delay-2">
                 <div class="stat-icon-circle"><i class="fas fa-calendar-check"></i></div>
-                <div class="stat-number">15+</div>
+                <div class="stat-number">27+</div>
                 <div class="stat-label">Years of Experience</div>
             </div>
             <div class="stat-item reveal delay-3">
@@ -199,42 +199,42 @@
     <div class="container">
         <div class="services-intro-grid">
             <div class="services-intro-image reveal-left">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Headway consulting services">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Mahavir consulting services">
                 <div class="services-intro-image-badge">
-                    <i class="fas fa-gem"></i> Jewellery Business Experts
+                    <i class="fas fa-gem"></i> Business Development Experts
                 </div>
             </div>
             <div class="reveal-right">
                 <span class="section-label">What We Offer</span>
-                <h2 class="section-title">Helping Jewellers <span class="orange">Seed to Succeed</span></h2>
-                <p class="section-subtitle">From launching your first store to scaling an established brand, we provide tailored coaching and consulting across every stage of growth.</p>
+                <h2 class="section-title">Complete <span class="orange">Business Development</span> Training</h2>
+                <p class="section-subtitle">Empowering businesses through structured training and strategic consultancy to reach new heights of success.</p>
                 <div class="services-items-list">
                     <div class="service-list-item">
-                        <div class="service-list-icon"><i class="fas fa-rocket"></i></div>
+                        <div class="service-list-icon"><i class="fas fa-chalkboard-teacher"></i></div>
                         <div class="service-list-body">
-                            <h4>Startup Consultancy</h4>
-                            <p>Comprehensive guidance for new entrants — business planning, operations, and strategic launch.</p>
+                            <h4>Business Induction</h4>
+                            <p>Foundations of business growth, vision, mission, and organization structure for total clarity.</p>
                         </div>
                     </div>
                     <div class="service-list-item">
-                        <div class="service-list-icon"><i class="fas fa-chart-bar"></i></div>
+                        <div class="service-list-icon"><i class="fas fa-user-tie"></i></div>
                         <div class="service-list-body">
-                            <h4>Growth for Established Businesses</h4>
-                            <p>Identify strengths, explore expansion opportunities, and optimize operational efficiency.</p>
+                            <h4>Individual Development</h4>
+                            <p>Personalized training programs including IDP, HRM, and Sales training for professional excellence.</p>
                         </div>
                     </div>
                     <div class="service-list-item">
-                        <div class="service-list-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="service-list-icon"><i class="fas fa-bullhorn"></i></div>
                         <div class="service-list-body">
-                            <h4>Jewellery Vidhyapith</h4>
-                            <p>Specialised training programs equipping individuals with essential jewellery business skills.</p>
+                            <h4>Branding & Marketing</h4>
+                            <p>Strategic branding, digital marketing, and customer relationship management to build trust.</p>
                         </div>
                     </div>
                     <div class="service-list-item">
-                        <div class="service-list-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="service-list-icon"><i class="fas fa-chart-pie"></i></div>
                         <div class="service-list-body">
-                            <h4>Intelligent IT Solutions</h4>
-                            <p>Complete IT services — web development, analytics, social media — tailored for jewellers.</p>
+                            <h4>Finance & Strategy</h4>
+                            <p>Comprehensive finance management and strategy development to ensure sustainable growth.</p>
                         </div>
                     </div>
                 </div>
@@ -249,19 +249,18 @@
     <div class="container">
         <div class="section-header centered reveal">
             <span class="section-label">Leadership</span>
-            <h2 class="section-title">Founder &amp; CMD of <span class="orange">Headway Business Solutions LLP</span></h2>
+            <h2 class="section-title">Founder &amp; CMD of <span class="orange">Mahavir Business Solution</span></h2>
         </div>
         <div class="founder-card-inner reveal">
-            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1400" alt="Mr. Paresh Rajpara – Founder & CMD">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1400" alt="Mr. Tushar Shah – Founder & CMD">
             <div class="founder-card-overlay">
                 <div class="founder-card-text">
-                    <span class="section-label">Founder & CMD</span>
-                    <h2>Mr. Paresh Rajpara</h2>
+                    <span class="section-label">Business Coach and Consultant</span>
+                    <h2>Tushar Shah</h2>
                     <p class="founder-role"><i class="fas fa-map-marker-alt"></i>&nbsp; Ahmedabad, Gujarat, India</p>
                     <div class="founder-card-divider"></div>
                     <blockquote>
-                        "Our focus is not just business growth, but the sustainable evolution of the jewellery sector. 
-                        We believe every jeweller deserves a 100% solution — a partner who walks alongside them at every step."
+                        "We are committed to achieving new standards of excellence by providing superior services and maximizing the potential of all clients, candidates, and employees – through the delivery of the most reliable and responsive solutions."
                     </blockquote>
                 </div>
             </div>
@@ -274,17 +273,17 @@
     <div class="container">
         <div class="split-row">
             <div class="split-image reveal-left">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Headway team working together">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Mahavir team working together">
                 <div class="split-image-accent"><i class="fas fa-gem"></i></div>
             </div>
             <div class="split-content reveal-right">
                 <span class="section-label">Who We Are</span>
                 <h2 class="section-title">Your Trusted Partner in<br><span class="orange">Jewellery Business Growth</span></h2>
                 <p style="color:var(--text-medium);line-height:1.85;margin-bottom:1rem;">
-                    Headway Business Solutions LLP with its motto <strong>Solution@100%</strong> goes beyond mere coaching and consulting. We foster long-term relationships with our clients, acting as trusted advisors who sail alongside them in their journey toward remarkable jewellery business success.
+                    <strong>Mahavir Business Solution</strong>, with its motto <strong>A Journey of Growth</strong>, goes beyond mere coaching and training. We take great pride in creating a system that not only showcases our services but also leverages over 27 years of experience in the industry to take your business to new heights.
                 </p>
                 <p style="color:var(--text-medium);line-height:1.85;">
-                    Our seasoned experts bring vast experience, offering tailor-made strategies informed by deep industry knowledge — so you get solutions that are ahead of the curve, not just adequate.
+                    Our company is registered by the Government in PMYK and has vast experience working in senior positions in branded corporate companies. We are dedicated to conducting business with equity and openness, ensuring that our customers can have complete trust in our operations.
                 </p>
                 <div style="display:flex;gap:2rem;margin-top:2rem;flex-wrap:wrap;">
                     <div>
@@ -292,12 +291,12 @@
                         <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-gray);">Clients Served</div>
                     </div>
                     <div>
-                        <div style="font-size:1.8rem;font-weight:900;color:var(--primary);">15+</div>
+                        <div style="font-size:1.8rem;font-weight:900;color:var(--primary);">27+</div>
                         <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-gray);">Years of Expertise</div>
                     </div>
                     <div>
-                        <div style="font-size:1.8rem;font-weight:900;color:var(--primary);">100%</div>
-                        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-gray);">Solution Guarantee</div>
+                        <div style="font-size:1.8rem;font-weight:900;color:var(--primary);">Growth</div>
+                        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-gray);">Oriented Approach</div>
                     </div>
                 </div>
                 <a href="Our Company/team.php" class="btn btn-primary" style="margin-top:2rem;">Meet Our Team <i class="fas fa-arrow-right"></i></a>
@@ -375,21 +374,21 @@
                         <div class="contact-icon-circle"><i class="fas fa-phone"></i></div>
                         <div>
                             <p class="contact-label">Call Us</p>
-                            <p class="contact-value">+91 70469 00096</p>
+                            <p class="contact-value">+91 98988 92497</p>
                         </div>
                     </div>
                     <div class="contact-item reveal delay-2">
                         <div class="contact-icon-circle"><i class="fas fa-envelope"></i></div>
                         <div>
                             <p class="contact-label">Email Us</p>
-                            <p class="contact-value">info@headway.org.in</p>
+                            <p class="contact-value">info@mahavirbusiness.com</p>
                         </div>
                     </div>
                     <div class="contact-item reveal delay-3">
                         <div class="contact-icon-circle"><i class="fas fa-globe"></i></div>
                         <div>
                             <p class="contact-label">Website</p>
-                            <p class="contact-value"><a href="https://headway.org.in" target="_blank" style="color:var(--primary);">headway.org.in</a></p>
+                            <p class="contact-value"><a href="https://mahavirbusiness.com" target="_blank" style="color:var(--primary);">mahavirbusiness.com</a></p>
                         </div>
                     </div>
                 </div>

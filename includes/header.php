@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($page_title) ? $page_title . ' – ' : ''; ?>Headway Business Solutions LLP</title>
-    <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : "India's No.1 Jewellery Business Consultant & Coach – Headway Business Solutions LLP. Solution@100%."; ?>">
+    <title><?php echo isset($page_title) ? $page_title . ' – ' : ''; ?>Mahavir Business Solution</title>
+    <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : "India's No.1 Business Development Training & Consulting – Mahavir Business Solution. A Journey of Growth."; ?>">
     <link rel="stylesheet" href="<?php echo $path_prefix; ?>style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,8 +26,7 @@
                 <div class="logo-icon">
                     <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="80" height="80" rx="8" fill="url(#logoGrad)"/>
-                        <path d="M18 18 L18 62 M18 40 L62 40 M62 18 L62 62" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M30 54 L40 68 L50 54" fill="rgba(255,255,255,0.9)"/>
+                        <path d="M18 62 V18 L40 42 L62 18 V62" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <defs>
                             <linearGradient id="logoGrad" x1="0" y1="0" x2="80" y2="80">
                                 <stop offset="0%" stop-color="#f97316"/>
@@ -37,9 +36,9 @@
                     </svg>
                 </div>
                 <div class="logo-text">
-                    <span class="logo-name">HEADWAY<sup>®</sup></span>
-                    <span class="logo-sub">BUSINESS SOLUTIONS LLP</span>
-                    <span class="logo-tag">Solution@100%<sup>®</sup></span>
+                    <span class="logo-name">MAHAVIR</span>
+                    <span class="logo-sub">BUSINESS SOLUTION</span>
+                    <span class="logo-tag">A JOURNEY OF GROWTH</span>
                 </div>
             </div>
         </a>

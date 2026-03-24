@@ -31,7 +31,7 @@
 
 <section class="page-hero">
     <div class="page-hero-bg">
-        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1920" alt="Headway Team">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1920" alt="Mahavir Team">
         <div class="page-hero-overlay"></div>
     </div>
     <div class="container relative z-10">
@@ -55,13 +55,13 @@
         <!-- Founder Spotlight -->
         <div class="founder-spotlight reveal">
             <div class="founder-spotlight-img">
-                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800" alt="Mr. Paresh Rajpara – Founder & CMD">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800" alt="Mr. Tushar Shah – Founder & CMD">
             </div>
             <div class="founder-spotlight-info">
                 <p class="founder-role-tag"><i class="fas fa-star" style="color:var(--primary);"></i> &nbsp;Founder & CMD</p>
-                <h2>Mr. Paresh Rajpara</h2>
+                <h2>Mr. Tushar Shah</h2>
                 <div class="founder-divider"></div>
-                <blockquote>"Our focus is not just business growth, but the sustainable evolution of the jewellery sector. We believe in 100% solutions — every single day."</blockquote>
+                <blockquote>"Our focus is not just business growth, but the sustainable evolution of every client we touch. We believe in 100% solutions — every single day."</blockquote>
                 <div class="founder-socials">
                     <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -109,7 +109,7 @@
 <section class="section-padding bg-warm">
     <div class="container"><div class="cta-banner reveal">
         <h2 class="section-title">Join Our Growing Team</h2>
-        <p class="section-subtitle">We're always looking for passionate people to help us shape the future of the jewellery industry.</p>
+        <p class="section-subtitle">We're always looking for passionate people to help us shape the future of business consultancy.</p>
         <div class="btn-group"><a href="../Career/job-required.php" class="btn btn-white">View Open Positions <i class="fas fa-arrow-right"></i></a></div>
     </div></div>
 </section>

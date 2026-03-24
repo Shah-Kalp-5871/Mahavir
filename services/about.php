@@ -163,9 +163,9 @@
     <div class="container">
         <div class="about-hero-grid">
             <div class="about-hero-text">
-                <div class="about-hero-tag"><i class="fas fa-gem"></i> India's #1 Jewellery Consultants</div>
-                <h1 class="about-title">About<br><span style="color:var(--primary)">Headway</span></h1>
-                <p class="about-hero-desc">Where innovation meets brilliance. We're dedicated to helping jewellery entrepreneurs achieve outstanding and sustainable success.</p>
+                <div class="about-hero-tag"><i class="fas fa-gem"></i> India's #1 Business Development Consultants</div>
+                <h1 class="about-title">About<br><span style="color:var(--primary)">Mahavir</span></h1>
+                <p class="about-hero-desc">A Journey of Growth. We are dedicated to helping entrepreneurs achieve outstanding and sustainable success with over 27 years of industry heritage.</p>
                 <nav class="breadcrumb-light" style="margin-top:2rem;">
                     <a href="../index.php">Home</a>
                     <i class="fas fa-chevron-right"></i>
@@ -173,7 +173,7 @@
                 </nav>
             </div>
             <div class="about-hero-image">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Headway Business Solutions Team">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Mahavir Business Solution Team">
             </div>
         </div>
     </div>
@@ -184,15 +184,15 @@
     <div class="container">
         <div class="intro-grid">
             <div class="intro-img-wrap reveal-left">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Headway Business Growth">
-                <div class="intro-img-badge"><i class="fas fa-award"></i> 15+ Years of Excellence</div>
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Mahavir Business Solution Growth">
+                <div class="intro-img-badge"><i class="fas fa-award"></i> 27+ Years of Excellence</div>
             </div>
             <div class="intro-content reveal-right">
                 <span class="section-label">Our Introduction</span>
                 <h2 class="section-title">Where Innovation Meets <span class="orange">Brilliance</span></h2>
-                <p>With a warm welcome, we introduce ourselves as <strong>Headway Business Solutions LLP</strong>, where innovation meets brilliance for jewellery business coaching and consulting. As a leading consulting firm, we take pride in dedicating our solution-providing guidance to jewellery entrepreneurs toward outstanding success.</p>
-                <p>At Headway, we understand that the jewellery business is not merely about ornaments — it's a delicate balance of productive operations, revenue generation through strategic marketing, and effective selling of artistic products.</p>
-                <p>Our seasoned experts bring vast experience, offering tailor-made solutions that will thrust your business forward. We are not just advisors; we are your long-term partners, sailing alongside you every step of the way.</p>
+                <p>With a warm welcome, we introduce ourselves as <strong>Mahavir Business Solution</strong>, where a journey of growth begins for your business. Our company is registered by the Government in the <strong>PMYK (Pradhan Mantri Kautaliya Vardhak Yojana)</strong> scheme.</p>
+                <p>Founded by stakeholders with over 27 years of experience in the jewellery business, Mahavir Business Solution is situated at the heart of the bustling city of Ahmedabad. We provide our training and services all over India, reaching clients directly at their floor area.</p>
+                <p>We take great pride in creating a system that not only showcases our services but also strengthens every foundation of your business, taking it to new heights leveraging the unparalleled trust we have received from our stakeholders.</p>
                 <a href="../contact.php" class="btn btn-primary" style="margin-top:1.5rem;">Book a Free Consultation <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
@@ -205,27 +205,27 @@
         <div class="section-header centered reveal">
             <span class="section-label">Our Purpose</span>
             <h2 class="section-title">Mission &amp; <span class="orange">Vision</span></h2>
-            <p class="section-subtitle">Guided by purpose, driven by results — read what fuels the Headway promise.</p>
+            <p class="section-subtitle">Guided by purpose, driven by results — read what fuels the Mahavir promise.</p>
         </div>
         <div class="mv-grid">
             <div class="mv-card reveal delay-1">
                 <div class="mv-card-icon"><i class="fas fa-bullseye"></i></div>
                 <h2 class="mv-title">Our <span class="orange">Mission</span></h2>
                 <ul class="mv-list">
-                    <li><i class="fas fa-check-circle"></i> Help every jewellery business thrive, setting new benchmarks for success.</li>
-                    <li><i class="fas fa-check-circle"></i> Equip jewellery businesses with tools to succeed in evolving market conditions.</li>
-                    <li><i class="fas fa-check-circle"></i> Nurture startups and accelerate growth for established jewellers.</li>
-                    <li><i class="fas fa-check-circle"></i> Turn aspirations into tangible achievements through custom-made strategies and unwavering support.</li>
+                    <li><i class="fas fa-check-circle"></i> Expand our presence across various locations, leveraging industry trust.</li>
+                    <li><i class="fas fa-check-circle"></i> Conduct business with emphasis on equity, openness, and complete reliability.</li>
+                    <li><i class="fas fa-check-circle"></i> Achieve new standards of excellence by providing superior, reliable services.</li>
+                    <li><i class="fas fa-check-circle"></i> Maximizing the potential of all clients, candidates, and employees.</li>
                 </ul>
             </div>
             <div class="mv-card reveal delay-2">
                 <div class="mv-card-icon"><i class="fas fa-eye"></i></div>
                 <h2 class="mv-title">Our <span class="orange">Vision</span></h2>
                 <ul class="mv-list">
-                    <li><i class="fas fa-check-circle"></i> Be the world's foremost coaching and advisory firm for jewellery businesses.</li>
-                    <li><i class="fas fa-check-circle"></i> Ensure all partner jewellers succeed in their unique aspirations.</li>
-                    <li><i class="fas fa-check-circle"></i> Deliver top-notch advice, creative strategies, and powerful solutions.</li>
-                    <li><i class="fas fa-check-circle"></i> Take the jewellery industry to unprecedented levels of collective success.</li>
+                    <li><i class="fas fa-check-circle"></i> To take our customers to new heights of business growth and success.</li>
+                    <li><i class="fas fa-check-circle"></i> Strengthen every foundation of business through rich cultural heritage.</li>
+                    <li><i class="fas fa-check-circle"></i> Create a revolution in the business consultancy landscape.</li>
+                    <li><i class="fas fa-check-circle"></i> Be the most reliable and responsive partner for business transformation.</li>
                 </ul>
             </div>
         </div>
@@ -236,8 +236,8 @@
 <section class="why-section">
     <div class="container">
         <div class="section-header centered reveal">
-            <span class="section-label">Why Headway?</span>
-            <h2 class="section-title">Why Designate <span class="orange">Headway Business Solutions?</span></h2>
+            <span class="section-label">Why Mahavir?</span>
+            <h2 class="section-title">Why Designate <span class="orange">Mahavir Business Solution?</span></h2>
             <p class="section-subtitle">Four pillars that make us the preferred partner for jewellers across India.</p>
         </div>
         <div class="why-grid">
@@ -254,7 +254,7 @@
             <div class="why-card reveal delay-3">
                 <div class="why-icon"><i class="fas fa-layer-group"></i></div>
                 <h3>Comprehensive Services</h3>
-                <p>From operational optimization to brand development and financial advisory — Headway is your one-stop consulting hub.</p>
+                <p>From operational optimization to brand development and financial advisory — Mahavir is your one-stop consulting hub.</p>
             </div>
             <div class="why-card reveal delay-4">
                 <div class="why-icon"><i class="fas fa-trophy"></i></div>
@@ -297,7 +297,7 @@
     <div class="container">
         <div class="cta-banner reveal">
             <h2 class="section-title" style="color:white;">Ready to Transform Your <br>Jewellery Business?</h2>
-            <p class="section-subtitle" style="color:rgba(255,255,255,0.85);">Join 500+ jewellers who've transformed their businesses with Headway's expert guidance.</p>
+            <p class="section-subtitle" style="color:rgba(255,255,255,0.85);">Join 500+ businesses who've transformed their operations with Mahavir's expert guidance.</p>
             <div class="btn-group">
                 <a href="../contact.php" class="btn btn-white">Start Your Journey <i class="fas fa-arrow-right"></i></a>
                 <a href="../Our Company/team.php" class="btn btn-outline" style="border-color:rgba(255,255,255,0.5);color:white;">Meet Our Team</a>

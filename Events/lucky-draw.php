@@ -37,7 +37,7 @@
     <div class="container relative z-10">
         <div class="page-hero-content text-center">
             <h1 class="page-title">Lucky <span style="color:var(--primary)">Draw</span></h1>
-            <p class="page-hero-sub" style="margin:0 auto;">Exciting prizes await! Participate in Headway's annual lucky draw and win big for your jewellery business.</p>
+            <p class="page-hero-sub" style="margin:0 auto;">Exciting prizes await! Participate in Mahavir's annual lucky draw and win big for your business.</p>
             <nav class="breadcrumb-light justify-center">
                 <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Events</span><i class="fas fa-chevron-right"></i><span>Lucky Draw</span>
             </nav>
@@ -49,7 +49,7 @@
     <div class="container">
         <div class="lucky-hero-inner reveal">
             <span class="lucky-trophy">🏆</span>
-            <h2 class="lucky-title">The Grand <span class="orange">Headway Lucky Draw</span></h2>
+            <h2 class="lucky-title">The Grand <span class="orange">Mahavir Lucky Draw</span></h2>
             <p class="lucky-subtitle" style="position:relative;z-index:1;">Our annual lucky draw rewards our valued clients and partners with exclusive prizes including business tools, training vouchers, and exciting experiences.</p>
             <div style="margin-top:2.5rem;position:relative;z-index:1;display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
                 <a href="register.php" class="btn btn-primary" style="font-size:1rem;padding:1rem 2.5rem;">Enter the Lucky Draw <i class="fas fa-ticket-alt"></i></a>
@@ -69,13 +69,13 @@
                 <div class="prize-rank">🥇</div>
                 <div class="prize-label">1st Prize – Grand Winner</div>
                 <h3>Premium Business Consulting Package</h3>
-                <p>6 months of exclusive one-on-one consulting + complete Jewellery Vidhyapith enrollment for your entire team.</p>
+                <p>6 months of exclusive one-on-one consulting + complete Business Induction enrollment for your entire team.</p>
                 <div class="prize-value">₹2,00,000 Value</div>
             </div>
             <div class="prize-card silver reveal delay-2">
                 <div class="prize-rank">🥈</div>
                 <div class="prize-label">2nd Prize – Runner Up</div>
-                <h3>Jewellery Vidhyapith Full Scholarship</h3>
+                <h3>Business Induction Full Scholarship</h3>
                 <p>Complete access to all training modules, workshops, and 3-month mentoring support for your business.</p>
                 <div class="prize-value">₹75,000 Value</div>
             </div>

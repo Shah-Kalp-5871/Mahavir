@@ -19,7 +19,7 @@
 
 <section class="page-hero">
     <div class="page-hero-bg">
-        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1920" alt="Headway Gallery">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1920" alt="Mahavir Gallery">
         <div class="page-hero-overlay"></div>
     </div>
     <div class="container relative z-10">
@@ -48,8 +48,8 @@
         </div>
         <div class="gallery-grid">
             <div class="gallery-item wide reveal delay-1">
-                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800" alt="Headway Annual Summit">
-                <div class="gallery-overlay"><p>Annual Jewellery Knowledge Summit 2025</p></div>
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800" alt="Mahavir Annual Summit">
+                <div class="gallery-overlay"><p>Annual Business Knowledge Summit 2025</p></div>
             </div>
             <div class="gallery-item reveal delay-2">
                 <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=600" alt="Team Workshop">
@@ -57,7 +57,7 @@
             </div>
             <div class="gallery-item reveal delay-3">
                 <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&1&fit=crop&q=80&w=600" alt="Training Program">
-                <div class="gallery-overlay"><p>Vidhyapith Training Session</p></div>
+                <div class="gallery-overlay"><p>Business Induction Training Session</p></div>
             </div>
             <div class="gallery-item reveal delay-4">
                 <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=600" alt="Award Ceremony">
@@ -69,7 +69,7 @@
             </div>
             <div class="gallery-item wide reveal delay-6">
                 <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=900" alt="Corporate Event">
-                <div class="gallery-overlay"><p>Corporate Jewellery Business Conference</p></div>
+                <div class="gallery-overlay"><p>Corporate Business Conference</p></div>
             </div>
             <div class="gallery-item reveal">
                 <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=600" alt="Client Event">
@@ -77,7 +77,7 @@
             </div>
             <div class="gallery-item reveal delay-1">
                 <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" alt="Team Photo">
-                <div class="gallery-overlay"><p>Headway Core Team 2025</p></div>
+                <div class="gallery-overlay"><p>Mahavir Core Team 2025</p></div>
             </div>
         </div>
     </div>

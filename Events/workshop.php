@@ -28,8 +28,8 @@
     </div>
     <div class="container relative z-10">
         <div class="page-hero-content text-center">
-            <h1 class="page-title">Industry <span style="color:var(--primary)">Workshops</span></h1>
-            <p class="page-hero-sub" style="margin:0 auto;">"Knowledge is the most precious jewel." — Immersive workshops designed to elevate your jewellery business expertise.</p>
+            <h1 class="page-title">Business <span style="color:var(--primary)">Workshops</span></h1>
+            <p class="page-hero-sub" style="margin:0 auto;">"Knowledge is the most precious asset." — Immersive workshops designed to elevate your business expertise.</p>
             <nav class="breadcrumb-light justify-center">
                 <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Events</span><i class="fas fa-chevron-right"></i><span>Workshop</span>
             </nav>
@@ -41,11 +41,11 @@
     <div class="container">
         <div class="section-header centered reveal">
             <span class="section-label">Workshop Highlights</span>
-            <h2 class="section-title">What to Expect at a <span class="orange">Headway Workshop</span></h2>
+            <h2 class="section-title">What to Expect at a <span class="orange">Mahavir Workshop</span></h2>
         </div>
         <div class="what-to-expect-grid">
-            <div class="wte-card reveal delay-1"><div class="wte-icon"><i class="fas fa-chalkboard-teacher"></i></div><h3>Expert-Led Sessions</h3><p>Learn directly from seasoned jewellery industry consultants with decades of on-ground experience.</p></div>
-            <div class="wte-card reveal delay-2"><div class="wte-icon"><i class="fas fa-users"></i></div><h3>Peer Networking</h3><p>Connect with fellow jewellers, share experiences, and build lasting professional relationships.</p></div>
+            <div class="wte-card reveal delay-1"><div class="wte-icon"><i class="fas fa-chalkboard-teacher"></i></div><h3>Expert-Led Sessions</h3><p>Learn directly from seasoned business consultants with decades of on-ground experience.</p></div>
+            <div class="wte-card reveal delay-2"><div class="wte-icon"><i class="fas fa-users"></i></div><h3>Peer Networking</h3><p>Connect with fellow entrepreneurs, share experiences, and build lasting professional relationships.</p></div>
             <div class="wte-card reveal delay-3"><div class="wte-icon"><i class="fas fa-tools"></i></div><h3>Practical Tools</h3><p>Walk away with templates, frameworks, and action plans you can immediately apply in your business.</p></div>
         </div>
     </div>
@@ -60,7 +60,7 @@
         <div class="coming-soon-box reveal">
             <div class="cs-icon"><i class="fas fa-tools"></i></div>
             <h3 style="font-size:1.6rem;font-weight:900;margin-bottom:.75rem;">Something Brilliant is Coming</h3>
-            <p style="color:var(--text-medium);line-height:1.8;">We are currently polishing our upcoming workshop modules to ensure you receive the absolute best jewellery business expertise. Stay tuned for exciting announcements!</p>
+            <p style="color:var(--text-medium);line-height:1.8;">We are currently polishing our upcoming workshop modules to ensure you receive the absolute best business expertise. Stay tuned for exciting announcements!</p>
             <div class="cs-dots">
                 <span class="cs-dot"></span>
                 <span class="cs-dot"></span>

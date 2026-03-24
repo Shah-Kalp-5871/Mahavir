@@ -8,8 +8,7 @@
                     <div class="logo-icon footer-logo-icon">
                         <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="80" height="80" rx="8" fill="url(#footerLogoGrad)"/>
-                            <path d="M18 18 L18 62 M18 40 L62 40 M62 18 L62 62" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M30 54 L40 68 L50 54" fill="rgba(255,255,255,0.9)"/>
+                            <path d="M18 62 V18 L40 42 L62 18 V62" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <defs>
                                 <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="80" y2="80">
                                     <stop offset="0%" stop-color="#f97316"/>
@@ -19,12 +18,12 @@
                         </svg>
                     </div>
                     <div class="logo-text">
-                        <span class="logo-name">HEADWAY<sup>®</sup></span>
-                        <span class="logo-sub">BUSINESS SOLUTIONS LLP</span>
-                        <span class="logo-tag">Solution@100%<sup>®</sup></span>
+                        <span class="logo-name">MAHAVIR</span>
+                        <span class="logo-sub">BUSINESS SOLUTION</span>
+                        <span class="logo-tag">A JOURNEY OF GROWTH</span>
                     </div>
                 </div>
-                <p>India's #1 jewellery business coaching & consulting firm. We partner with brands to build, grow, and sustain remarkable success.</p>
+                <p>Mahavir Business Solution is registered in PMYK scheme. We provide complete business development training and services all over India, helping businesses reach new heights.</p>
             </div>
 
             <!-- Quick Links -->
@@ -56,15 +55,15 @@
                 <div class="footer-contact-info">
                     <div class="footer-contact-item">
                         <div class="footer-icon-circle"><i class="fas fa-phone"></i></div>
-                        <span>+91 70469 00096<br><small style="color:rgba(255,255,255,0.4)">Mon–Sat 10AM–7PM</small></span>
+                        <span>+91 98988 92497<br><small style="color:rgba(255,255,255,0.4)">Mon–Sat 10AM–7PM</small></span>
                     </div>
                     <div class="footer-contact-item">
                         <div class="footer-icon-circle"><i class="fas fa-envelope"></i></div>
-                        <span>info@headway.org.in</span>
+                        <span>info@mahavirbusiness.com</span>
                     </div>
                     <div class="footer-contact-item">
                         <div class="footer-icon-circle"><i class="fas fa-map-marker-alt"></i></div>
-                        <span>101-Shree Kashi Parekh Complex, Near Swastik Cross Rd, CG Road, Navrangpura, Ahmedabad, Gujarat 380009</span>
+                        <span>Ahmedabad, Gujarat, India</span>
                     </div>
                 </div>
             </div>
@@ -73,7 +72,7 @@
         <hr class="footer-divider">
 
         <div class="footer-bottom">
-            <p class="footer-copy">Copyright &copy; 2026 Headway Business Solutions LLP. All rights reserved.</p>
+            <p class="footer-copy">Copyright &copy; 2026 Mahavir Business Solution. All rights reserved.</p>
             <div class="footer-social">
                 <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>

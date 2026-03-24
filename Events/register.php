@@ -30,7 +30,7 @@
     <div class="container relative z-10">
         <div class="page-hero-content text-center">
             <h1 class="page-title">Event <span style="color:var(--primary)">Registration</span></h1>
-            <p class="page-hero-sub" style="margin:0 auto;">Secure your spot at Headway's upcoming events — workshops, lucky draws, and more.</p>
+            <p class="page-hero-sub" style="margin:0 auto;">Secure your spot at Mahavir's upcoming events — workshops, lucky draws, and more.</p>
             <nav class="breadcrumb-light justify-center">
                 <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Events</span><i class="fas fa-chevron-right"></i><span>Register</span>
             </nav>
@@ -55,15 +55,15 @@
                         <div><label class="form-label">Phone Number *</label><input type="tel" placeholder="+91 00000 00000" required></div>
                         <div><label class="form-label">City</label><input type="text" placeholder="Your city"></div>
                     </div>
-                    <div><label class="form-label">Business Name</label><input type="text" placeholder="Name of your jewellery business"></div>
+                    <div><label class="form-label">Business Name</label><input type="text" placeholder="Name of your business"></div>
                     <div>
                         <label class="form-label">Event You're Registering For *</label>
                         <select required style="width:100%;">
                             <option value="">Select an event...</option>
                             <option>Annual Lucky Draw 2025</option>
-                            <option>Jewellery Knowledge Summit</option>
-                            <option>Jewellery Vidhyapith Workshop</option>
-                            <option>Young Jewellers Program</option>
+                            <option>Business Knowledge Summit</option>
+                            <option>Business Induction Workshop</option>
+                            <option>Young Entrepreneurs Program</option>
                         </select>
                     </div>
                     <div><label class="form-label">How did you hear about us?</label>
@@ -108,7 +108,7 @@
                 <div class="event-benefits">
                     <h4 style="font-size:1rem;font-weight:800;margin-bottom:1rem;">What's Included</h4>
                     <div class="benefit-item"><i class="fas fa-check-circle"></i><span>Expert-led sessions and workshops</span></div>
-                    <div class="benefit-item"><i class="fas fa-check-circle"></i><span>Networking with fellow jewellers</span></div>
+                    <div class="benefit-item"><i class="fas fa-check-circle"></i><span>Networking with fellow entrepreneurs</span></div>
                     <div class="benefit-item"><i class="fas fa-check-circle"></i><span>Practical tools and resource kit</span></div>
                     <div class="benefit-item"><i class="fas fa-check-circle"></i><span>Lunch and refreshments</span></div>
                     <div class="benefit-item"><i class="fas fa-check-circle"></i><span>Participation certificate</span></div>

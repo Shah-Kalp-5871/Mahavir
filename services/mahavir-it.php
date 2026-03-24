@@ -20,8 +20,8 @@
     <div class="container relative z-10">
         <div class="page-hero-content">
             <span class="section-label" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.35);color:var(--primary);margin-bottom:1rem;display:inline-block;"><i class="fas fa-laptop-code"></i>&nbsp;Mahavir IT</span>
-            <h1 class="page-title">Digital Solutions Built<br>for <span style="color:var(--primary)">Jewellers</span></h1>
-            <p class="page-hero-sub">End-to-end IT services — web, analytics, social media — designed to help your jewellery business thrive in the digital age.</p>
+            <h1 class="page-title">Digital Solutions Built<br>for <span style="color:var(--primary)">Your Business</span></h1>
+            <p class="page-hero-sub">End-to-end IT services — web, analytics, social media — designed to help your business thrive in the digital age.</p>
             <nav class="breadcrumb-light" style="margin-top:1.25rem;">
                 <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Services</span><i class="fas fa-chevron-right"></i><span>Mahavir IT</span>
             </nav>
@@ -34,9 +34,9 @@
         <div class="split-row reverse">
             <div class="split-content reveal-left">
                 <span class="section-label">About Mahavir IT</span>
-                <h2 class="section-title">Your Jewellery Business,<br><span class="orange">Digitally Empowered</span></h2>
-                <p>Mahavir IT is Headway's dedicated technology division. We combine deep jewellery business expertise with cutting-edge digital solutions to create technology that doesn't just work — it drives measurable growth.</p>
-                <p style="margin-top:1rem;">From custom websites and e-commerce platforms to comprehensive data analytics and social media management, we deliver end-to-end digital solutions tailored specifically for the jewellery industry.</p>
+                <h2 class="section-title">Your Business,<br><span class="orange">Digitally Empowered</span></h2>
+                <p>Mahavir IT is our dedicated technology division. We combine deep business expertise with cutting-edge digital solutions to create technology that doesn't just work — it drives measurable growth.</p>
+                <p style="margin-top:1rem;">From custom websites and e-commerce platforms to comprehensive data analytics and social media management, we deliver end-to-end digital solutions tailored specifically for modern businesses.</p>
                 <div class="tech-stack">
                     <span class="tech-badge">Web Development</span>
                     <span class="tech-badge">E-Commerce</span>
@@ -62,11 +62,11 @@
             <h2 class="section-title">Complete <span class="orange">Digital Solutions</span></h2>
         </div>
         <div class="it-grid">
-            <div class="sf-card reveal delay-1"><div class="sf-icon"><i class="fas fa-globe"></i></div><h3>Jewellery Website Design</h3><p>Premium, high-converting websites that showcase your jewellery collection beautifully and drive customer enquiries.</p></div>
-            <div class="sf-card reveal delay-2"><div class="sf-icon"><i class="fas fa-shopping-cart"></i></div><h3>E-Commerce Platforms</h3><p>Fully functional online jewellery stores with secure payment, inventory sync, and a seamless customer experience.</p></div>
+            <div class="sf-card reveal delay-1"><div class="sf-icon"><i class="fas fa-globe"></i></div><h3>Business Website Design</h3><p>Premium, high-converting websites that showcase your collection beautifully and drive customer enquiries.</p></div>
+            <div class="sf-card reveal delay-2"><div class="sf-icon"><i class="fas fa-shopping-cart"></i></div><h3>E-Commerce Platforms</h3><p>Fully functional online stores with secure payment, inventory sync, and a seamless customer experience.</p></div>
             <div class="sf-card reveal delay-3"><div class="sf-icon"><i class="fas fa-chart-bar"></i></div><h3>Data Analytics</h3><p>Transform your sales data into actionable intelligence — understand customers, stock performance, and growth opportunities.</p></div>
-            <div class="sf-card reveal delay-4"><div class="sf-icon"><i class="fab fa-instagram"></i></div><h3>Social Media Management</h3><p>Strategic, consistent presence on Instagram, Facebook, and YouTube that builds your jewellery brand and drives footfall.</p></div>
-            <div class="sf-card reveal delay-5"><div class="sf-icon"><i class="fas fa-ad"></i></div><h3>Digital Advertising</h3><p>Targeted Google and Meta ad campaigns that bring the right customers to your jewellery store — online and offline.</p></div>
+            <div class="sf-card reveal delay-4"><div class="fab fa-instagram ci-icon-v2"></div><h3>Social Media Management</h3><p>Strategic, consistent presence on Instagram, Facebook, and YouTube that builds your brand and drives footfall.</p></div>
+            <div class="sf-card reveal delay-5"><div class="fas fa-ad ci-icon-v2"></div><h3>Digital Advertising</h3><p>Targeted Google and Meta ad campaigns that bring the right customers to your store — online and offline.</p></div>
             <div class="sf-card reveal delay-6"><div class="sf-icon"><i class="fas fa-headset"></i></div><h3>Technical Support</h3><p>Responsive IT support and system maintenance to ensure your digital infrastructure is always performing at its best.</p></div>
         </div>
     </div>
@@ -75,7 +75,7 @@
 <section class="section-padding" style="background:#fff;">
     <div class="container"><div class="cta-banner reveal">
         <h2 class="section-title">Ready to Go Digital?</h2>
-        <p class="section-subtitle">Let Mahavir IT build the digital foundation that takes your jewellery business to the next level.</p>
+        <p class="section-subtitle">Let Mahavir IT build the digital foundation that takes your business to the next level.</p>
         <div class="btn-group"><a href="../contact.php" class="btn btn-white">Start Your Digital Journey <i class="fas fa-arrow-right"></i></a></div>
     </div></div>
 </section>

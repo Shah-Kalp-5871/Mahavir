@@ -53,8 +53,8 @@
     <div class="container relative z-10">
         <div class="page-hero-content">
             <span class="section-label" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.35);color:var(--primary);margin-bottom:1rem;display:inline-block;"><i class="fas fa-rocket"></i> &nbsp;Startup Consultancy</span>
-            <h1 class="page-title">Launch Your Jewellery<br>Brand with <span style="color:var(--primary)">Confidence</span></h1>
-            <p class="page-hero-sub">End-to-end consulting for ambitious entrepreneurs ready to make their mark in gems & jewellery.</p>
+            <h1 class="page-title">Launch Your Business<br>Brand with <span style="color:var(--primary)">Confidence</span></h1>
+            <p class="page-hero-sub">End-to-end consulting for ambitious entrepreneurs ready to make their mark in the business world.</p>
             <nav class="breadcrumb-light" style="margin-top:1.25rem;">
                 <a href="../index.php">Home</a> <i class="fas fa-chevron-right"></i>
                 <span>Services</span> <i class="fas fa-chevron-right"></i>
@@ -74,9 +74,9 @@
             </div>
             <div class="split-content reveal-right">
                 <span class="section-label">What We Offer</span>
-                <h2 class="section-title">From Concept to<br><span class="orange">Thriving Jewellery Brand</span></h2>
-                <p>Starting a new jewellery business requires more than capital — it demands a bulletproof strategy, market intelligence, and expert guidance. Our seasoned consultants are your partners in building a strong foundation for long-term success.</p>
-                <p style="margin-top:1rem;">From initial market research and business modeling to brand positioning, inventory planning, and retail setup — we cover every critical step of your launch journey.</p>
+                <h2 class="section-title">From Concept to<br><span class="orange">Thriving Business Brand</span></h2>
+                <p>Starting a new business requires more than capital — it demands a bulletproof strategy, market intelligence, and expert guidance. Our seasoned consultants are your partners in building a strong foundation for long-term success.</p>
+                <p style="margin-top:1rem;">From initial market research and business modeling to brand positioning, inventory planning, and retail setup — we cover every critical step of your launch journey, backed by over 27 years of industry experience.</p>
                 <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem;">
                     <a href="../contact.php" class="btn btn-primary">Book a Free Consultation <i class="fas fa-arrow-right"></i></a>
                     <a href="../services/about.php" class="btn btn-outline">Learn More</a>
@@ -166,7 +166,7 @@
     <div class="container">
         <div class="cta-banner reveal">
             <h2 class="section-title">Ready to Turn Your Vision into Reality?</h2>
-            <p class="section-subtitle">Let's discuss how our tailored startup consultancy can accelerate your journey to a thriving jewellery business.</p>
+            <p class="section-subtitle">Let's discuss how our tailored startup consultancy can accelerate your journey to a thriving business.</p>
             <div class="btn-group">
                 <a href="../contact.php" class="btn btn-white">Schedule a Strategy Session <i class="fas fa-arrow-right"></i></a>
             </div>

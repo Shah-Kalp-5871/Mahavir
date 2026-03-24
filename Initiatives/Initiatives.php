@@ -39,32 +39,32 @@
         <div class="section-header centered reveal">
             <span class="section-label">Going Beyond Business</span>
             <h2 class="section-title">Initiatives That Make a <span class="orange">Difference</span></h2>
-            <p class="section-subtitle">At Headway, we believe in giving back to the industry that has given us so much. Explore our flagship programs below.</p>
+            <p class="section-subtitle">At Mahavir Business Solution, we believe in giving back to the industries we serve. Explore our flagship programs below.</p>
         </div>
         <div class="initiatives-grid">
             <div class="initiative-card reveal delay-1">
-                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Jewellery Knowledge Summit"></div>
-                <div class="initiative-card-body"><span class="initiative-tag">Annual Event</span><h3>Jewellery Knowledge Summit</h3><p>India's premier annual gathering of jewellery business owners, thought leaders, and industry experts for 2 days of learning and networking.</p></div>
+                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Business Knowledge Summit"></div>
+                <div class="initiative-card-body"><span class="initiative-tag">Annual Event</span><h3>Business Knowledge Summit</h3><p>India's premier annual gathering of business owners, thought leaders, and industry experts for 2 days of learning and networking.</p></div>
             </div>
             <div class="initiative-card reveal delay-2">
-                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800" alt="Young Jewellers Program"></div>
-                <div class="initiative-card-body"><span class="initiative-tag">Youth Development</span><h3>Young Jewellers Program</h3><p>A structured 6-month incubator for next-generation jewellers from family businesses, equipping them with modern business skills.</p></div>
+                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800" alt="Young Entrepreneurs Program"></div>
+                <div class="initiative-card-body"><span class="initiative-tag">Youth Development</span><h3>Young Entrepreneurs Program</h3><p>A structured 6-month incubator for next-generation leaders from family businesses, equipping them with modern business skills.</p></div>
             </div>
             <div class="initiative-card reveal delay-3">
-                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=800" alt="Women in Jewellery"></div>
-                <div class="initiative-card-body"><span class="initiative-tag">Empowerment</span><h3>Women in Jewellery</h3><p>Dedicated mentoring and funding guidance for women entrepreneurs looking to build or expand their jewellery ventures.</p></div>
+                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=800" alt="Women in Business"></div>
+                <div class="initiative-card-body"><span class="initiative-tag">Empowerment</span><h3>Women in Business</h3><p>Dedicated mentoring and funding guidance for women entrepreneurs looking to build or expand their business ventures.</p></div>
             </div>
             <div class="initiative-card reveal delay-4">
                 <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" alt="Artisan Support Network"></div>
                 <div class="initiative-card-body"><span class="initiative-tag">Grassroots</span><h3>Artisan Support Network</h3><p>Connecting skilled jewellery artisans with retailers and designers — ensuring traditional craftsmanship finds its market.</p></div>
             </div>
             <div class="initiative-card reveal delay-5">
-                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800" alt="Headway Scholarship"></div>
-                <div class="initiative-card-body"><span class="initiative-tag">Scholarship</span><h3>Headway Merit Scholarship</h3><p>Annual scholarships for deserving students pursuing gemology, jewellery design, and related fields at accredited institutions.</p></div>
+                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800" alt="Mahavir Scholarship"></div>
+                <div class="initiative-card-body"><span class="initiative-tag">Scholarship</span><h3>Mahavir Merit Scholarship</h3><p>Annual scholarships for deserving students pursuing business management, design, and related fields at accredited institutions.</p></div>
             </div>
             <div class="initiative-card reveal delay-6">
-                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Jewellers Roundtable"></div>
-                <div class="initiative-card-body"><span class="initiative-tag">Community</span><h3>Jewellers Roundtable</h3><p>Monthly peer-to-peer discussion forums where jewellers share challenges, best practices, and regional market intelligence.</p></div>
+                <div class="initiative-card-img"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Business Roundtable"></div>
+                <div class="initiative-card-body"><span class="initiative-tag">Community</span><h3>Business Roundtable</h3><p>Monthly peer-to-peer discussion forums where business owners share challenges, best practices, and regional market intelligence.</p></div>
             </div>
         </div>
     </div>

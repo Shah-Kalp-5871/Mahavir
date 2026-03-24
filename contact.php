@@ -112,13 +112,13 @@
 <!-- ════════ HERO ════════ -->
 <section class="page-hero">
     <div class="page-hero-bg">
-        <img src="https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?auto=format&fit=crop&q=80&w=1600" alt="Connect with Headway">
+        <img src="https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?auto=format&fit=crop&q=80&w=1600" alt="Connect with Mahavir">
         <div class="page-hero-overlay"></div>
     </div>
     <div class="container relative z-10">
         <div class="page-hero-content text-center">
             <h1 class="page-title">Contact <span style="color:var(--primary)">Us</span></h1>
-            <p class="page-hero-sub" style="margin:0 auto;">We're here to help your jewellery business grow to its fullest potential.</p>
+            <p class="page-hero-sub" style="margin:0 auto;">We're here to help your business grow to its fullest potential.</p>
             <nav class="breadcrumb-light justify-center">
                 <a href="index.php">Home</a>
                 <i class="fas fa-chevron-right"></i>
@@ -141,14 +141,14 @@
                         <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <div class="ci-label">Our Location</div>
-                            <div class="ci-value">101-Shree Kashi Parekh Complex, Near Swastik Cross Rd, CG Road, Navrangpura, Ahmedabad, Gujarat 380009</div>
+                            <div class="ci-value">Ahmedabad, Gujarat, India</div>
                         </div>
                     </div>
                     <div class="contact-info-item">
                         <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
                         <div>
                             <div class="ci-label">Call Us</div>
-                            <div class="ci-value">+91 70469 00096</div>
+                            <div class="ci-value">+91 98988 92497</div>
                             <div class="ci-value" style="color:rgba(255,255,255,0.45);font-size:0.8rem;">Mon–Sat: 10AM–7PM IST</div>
                         </div>
                     </div>
@@ -156,8 +156,7 @@
                         <div class="ci-icon"><i class="fas fa-envelope-open-text"></i></div>
                         <div>
                             <div class="ci-label">Email Support</div>
-                            <div class="ci-value">info@headway.org.in</div>
-                            <div class="ci-value">consult@headway.org.in</div>
+                            <div class="ci-value">info@mahavirbusiness.com</div>
                         </div>
                     </div>
                 </div>
@@ -218,7 +217,7 @@
             <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=1600" alt="Ahmedabad Office Location">
             <div class="map-pin">
                 <div class="map-pin-icon"><i class="fas fa-map-pin"></i></div>
-                <div class="map-pin-label">Headway HQ – Ahmedabad</div>
+                <div class="map-pin-label">Mahavir HQ – Ahmedabad</div>
             </div>
         </div>
     </div>

@@ -26,7 +26,7 @@
         <div class="page-hero-content">
             <span class="section-label" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.35);color:var(--primary);margin-bottom:1rem;display:inline-block;"><i class="fas fa-star"></i>&nbsp;Make My Dreams</span>
             <h1 class="page-title">Turn Your Vision into<br><span style="color:var(--primary)">Reality</span></h1>
-            <p class="page-hero-sub">A comprehensive growth program for established jewellers ready to take their business to the next level.</p>
+            <p class="page-hero-sub">A comprehensive growth program for established business owners ready to take their business to the next level.</p>
             <nav class="breadcrumb-light" style="margin-top:1.25rem;">
                 <a href="../index.php">Home</a><i class="fas fa-chevron-right"></i><span>Services</span><i class="fas fa-chevron-right"></i><span>Make My Dreams</span>
             </nav>
@@ -44,7 +44,7 @@
             <div class="split-content reveal-right">
                 <span class="section-label">The Program</span>
                 <h2 class="section-title">Your Dreams, Our <span class="orange">Strategic Blueprint</span></h2>
-                <p>Make My Dreams is a structured, results-oriented program built for jewellers who have a vision but need a strategic roadmap and execution support to achieve it. Whether it's opening a new branch, pivoting to high-value segments, or establishing a legacy brand — we make it happen.</p>
+                <p>Make My Dreams is a structured, results-oriented program built for business leaders who have a vision but need a strategic roadmap and execution support to achieve it. Whether it's opening a new branch, pivoting to high-value segments, or establishing a legacy brand — we make it happen.</p>
                 <div class="promise-list">
                     <div class="promise-item"><div class="promise-icon"><i class="fas fa-bullseye"></i></div><p><strong>Goal Clarity:</strong> Define specific, measurable business milestones and align your entire team around them.</p></div>
                     <div class="promise-item"><div class="promise-icon"><i class="fas fa-map"></i></div><p><strong>Strategic Roadmap:</strong> A complete 12-month action plan with weekly checkpoints and accountability frameworks.</p></div>
@@ -63,19 +63,19 @@
             <h2 class="section-title">What We'll Work On <span class="orange">Together</span></h2>
         </div>
         <div class="dream-grid">
-            <div class="sf-card reveal delay-1"><div class="sf-icon"><i class="fas fa-expand-arrows-alt"></i></div><h3>Business Expansion</h3><p>Strategic planning for opening new outlets, entering new geographies, or diversifying into new jewellery segments.</p></div>
-            <div class="sf-card reveal delay-2"><div class="sf-icon"><i class="fas fa-crown"></i></div><h3>Brand Elevation</h3><p>Transform your local jewellery shop into a premium, recognisable brand that attracts loyal, high-value customers.</p></div>
+            <div class="sf-card reveal delay-1"><div class="sf-icon"><i class="fas fa-expand-arrows-alt"></i></div><h3>Business Expansion</h3><p>Strategic planning for opening new outlets, entering new geographies, or diversifying into new market segments.</p></div>
+            <div class="sf-card reveal delay-2"><div class="sf-icon"><i class="fas fa-crown"></i></div><h3>Brand Elevation</h3><p>Transform your local business into a premium, recognisable brand that attracts loyal, high-value customers.</p></div>
             <div class="sf-card reveal delay-3"><div class="sf-icon"><i class="fas fa-chart-line"></i></div><h3>Revenue Growth</h3><p>Data-driven strategies to increase average transaction value, customer frequency, and overall revenue performance.</p></div>
             <div class="sf-card reveal delay-4"><div class="sf-icon"><i class="fas fa-cogs"></i></div><h3>Systems & Processes</h3><p>Build scalable operational systems — from inventory management to HR — that support growth without chaos.</p></div>
             <div class="sf-card reveal delay-5"><div class="sf-icon"><i class="fas fa-users"></i></div><h3>Team Development</h3><p>Build and train a leadership team capable of driving your vision forward with minimal constant oversight.</p></div>
-            <div class="sf-card reveal delay-6"><div class="sf-icon"><i class="fas fa-shield-alt"></i></div><h3>Legacy Planning</h3><p>Ensure the long-term sustainability and succession of your jewellery business across generations.</p></div>
+            <div class="sf-card reveal delay-6"><div class="sf-icon"><i class="fas fa-shield-alt"></i></div><h3>Legacy Planning</h3><p>Ensure the long-term sustainability and succession of your business across generations.</p></div>
         </div>
     </div>
 </section>
 
 <section class="section-padding" style="background:#fff;">
     <div class="container"><div class="cta-banner reveal">
-        <h2 class="section-title">What's Your Jewellery Dream?</h2>
+        <h2 class="section-title">What's Your Business Dream?</h2>
         <p class="section-subtitle">Share your ambitions with us, and we'll build the plan to make them your reality.</p>
         <div class="btn-group"><a href="../contact.php" class="btn btn-white">Let's Make It Happen <i class="fas fa-arrow-right"></i></a></div>
     </div></div>
