@@ -13,7 +13,8 @@
 .about-hero::before {
     content: '';
     position: absolute; inset: 0;
-    background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1920') center/cover;
+    background: url('<?= $path_prefix ?>Jewellery_img1.png') center/contain no-repeat;
+    background-color: #fff;
     opacity: 0.12;
 }
 .about-hero::after {
@@ -177,7 +178,7 @@
                 </nav>
             </div>
             <div class="about-hero-image">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Mahavir Business Solution Team">
+                <img src="<?= $path_prefix ?>Jewellery_img1.png" alt="Mahavir Business Solution Team" style="object-fit: contain; background: #fff;">
             </div>
         </div>
     </div>
@@ -188,7 +189,7 @@
     <div class="container">
         <div class="intro-grid">
             <div class="intro-img-wrap reveal-left">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Mahavir Business Solution Growth">
+                <img src="<?= $path_prefix ?>Jewellery_img2.png" alt="Mahavir Business Solution Growth" style="object-fit: contain; background: #fff;">
                 <div class="intro-img-badge"><i class="fas fa-award"></i> 27+ Years of Excellence</div>
             </div>
             <div class="intro-content reveal-right">

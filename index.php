@@ -1,12 +1,90 @@
-<?php $path_prefix = ''; include 'includes/header.php'; ?>
+<?php $path_prefix = '';
+include 'includes/header.php'; ?>
 
 <style>
 /* ── INDEX PAGE ── */
+/* ── INDEX PAGE ── */
+.hero-section {
+    padding-top: 72px; /* Navbar height */
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.hero-image-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.hero-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain; /* Ensure full visibility */
+}
+
+/* ── OUR SERVICES SECTION ── */
+.our-services-wrapper {
+    background: #fff;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+.services-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+/* Right Content Area */
+.services-full-graphic {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.05);
+    display: block;
+}
+.services-info-content {
+    text-align: left;
+}
+.services-info-content h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.info-subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 3rem;
+}
+.service-desc-item {
+    margin-bottom: 2.5rem;
+}
+.service-desc-item h3 {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #F97316;
+    margin-bottom: 0.5rem;
+}
+.service-desc-item p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+    font-weight: 500;
+}
+
+@media(max-width:1100px) {
+    .services-main-grid { grid-template-columns: 1fr; gap: 4rem; }
+    .services-info-content { text-align: center; }
+}
+
 /* Services Section */
 .services-section { background: var(--bg-warm); padding: var(--section-pad) 0; overflow: hidden;}
 .services-intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
 .services-intro-image { position: relative; border-radius: var(--r-xl); overflow: hidden; box-shadow: var(--shadow-xl); }
-.services-intro-image img { width: 100%; height: 480px; object-fit: cover; transition: transform var(--t-slow); display: block; }
+.services-intro-image img { width: 100%; height: auto; max-height: 520px; object-fit: contain; background: #fff; transition: transform var(--t-slow); display: block; }
 .services-intro-image:hover img { transform: scale(1.04); }
 .services-intro-image-badge {
     position: absolute; bottom: 1.5rem; left: 1.5rem;
@@ -139,32 +217,49 @@
 }
 </style>
 
-<!-- ════════ HERO SLIDER ════════ -->
+<!-- ════════ HERO SECTION ════════ -->
 <section class="hero-section">
-    <div class="swiper hero-swiper">
-        <div class="swiper-wrapper">
-            <!-- Slide 1 -->
-            <div class="swiper-slide">
-                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1920');"></div>
+    <div class="hero-image-container">
+        <img src="slide1.png" alt="Mahavir Business Solution - A Journey of Growth">
+    </div>
+</section>
+
+<!-- ════════ OUR SERVICES SECTION ════════ -->
+<section class="our-services-wrapper">
+    <div class="container">
+        <div class="services-main-grid">
+            <!-- Left: Graphic Frame -->
+            <div class="services-graphic-area">
+                <img src="mahavir.png" alt="Our Services" class="services-full-graphic">
             </div>
-            <!-- Slide 2 -->
-            <div class="swiper-slide">
-                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=1920');"></div>
-            </div>
-            <!-- Slide 3 -->
-            <div class="swiper-slide">
-                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1920');"></div>
+
+            <!-- Right: Content Area -->
+            <div class="services-info-content">
+                <h2>Our <span class="orange-text">Services</span></h2>
+                <p class="info-subtitle">Let Your Jewellery Business Blossom from Seed to Succeed:</p>
+
+                <div class="service-desc-item">
+                    <h3>Start-up:</h3>
+                    <p>We provide comprehensive guidance and counselling to new entrants of the lucrative jewellery business. From crafting a winning business plan to navigate through the complexities of daily administrations & operations. We shall provide solutions to all your issues & concerns in accordance with your business activities.</p>
+                </div>
+
+                <div class="service-desc-item">
+                    <h3>Growth of Established Businesses:</h3>
+                    <p>We partner with veteran established jewellers to identify their strengths and explore the opportunities for ideal expansion, refine marketing strategies, and optimize operational efficiency, propelling their businesses to accomplish remarkable success.</p>
+                </div>
+
+                <div class="service-desc-item">
+                    <h3>Jewellery Vidhyapith:</h3>
+                    <p>While we recognise the importance of constant learning, we propose specialised training programs under the "Jewellery Vidhyapith" banner. These preparations equip individuals with the necessary skills and knowledge to excel in various aspects of the jewellery business.</p>
+                </div>
+
+                <div class="service-desc-item">
+                    <h3>Intelligent IT:</h3>
+                    <p>Mahavir Business Solution specializes in offering a complete suite of IT services customised for jewellers, including web development, data analytics, and social media expertise. Our dedicated team ensures that your jewellery business flourishes in the digital landscape through cutting-edge technological solutions.</p>
+                </div>
             </div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
     </div>
-    <!-- Scroll indicator -->
-    <!-- <div class="hero-scroll-indicator" onclick="window.scrollBy({top:window.innerHeight,behavior:'smooth'})">
-        <div class="scroll-wheel"></div>
-        <span>Scroll</span>
-    </div> -->
 </section>
 
 <!-- ════════ STATS ════════ -->
@@ -200,7 +295,7 @@
     <div class="container">
         <div class="services-intro-grid">
             <div class="services-intro-image reveal-left">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Mahavir consulting services">
+                <img src="Jewellery_img.png" alt="Mahavir consulting services">
                 <div class="services-intro-image-badge">
                     <i class="fas fa-gem"></i> Business Development Experts
                 </div>
@@ -274,7 +369,7 @@
     <div class="container">
         <div class="split-row">
             <div class="split-image reveal-left">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Mahavir team working together">
+                <img src="Jewellery_img1.png" alt="Mahavir team working together" style="object-fit: contain; background: #fff;">
                 <div class="split-image-accent"><i class="fas fa-gem"></i></div>
             </div>
             <div class="split-content reveal-right">

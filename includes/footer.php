@@ -194,20 +194,7 @@ if (statsSection) {
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-// Hero Swiper (only init if exists)
-if (document.querySelector('.hero-swiper')) {
-    new Swiper('.hero-swiper', {
-        loop: true,
-        autoplay: { delay: 5500, disableOnInteraction: false },
-        pagination: { el: '.swiper-pagination', clickable: true },
-        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
-        effect: 'fade',
-        fadeEffect: { crossFade: true },
-        speed: 900,
-    });
-}
-</script>
+// Hero Swiper removed as per request for single image
 
 </body>
 </html>

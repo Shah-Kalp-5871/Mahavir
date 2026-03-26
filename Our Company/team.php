@@ -31,7 +31,7 @@
 
 <section class="page-hero">
     <div class="page-hero-bg">
-        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1920" alt="Mahavir Team">
+        <img src="<?= $path_prefix ?>Jewellery_img1.png" alt="Mahavir Team" style="object-fit: contain; background: #fff;">
         <div class="page-hero-overlay"></div>
     </div>
     <div class="container relative z-10">

@@ -19,6 +19,7 @@
 .course-card-body p{font-size:.88rem;color:var(--text-gray);line-height:1.7;}
 @media(max-width:1024px){.service-feature-grid{grid-template-columns:1fr 1fr;}.courses-grid{grid-template-columns:1fr;}}
 @media(max-width:640px){.service-feature-grid{grid-template-columns:1fr;}}
+.split-image img { height: auto !important; width: 100%; object-fit: contain !important; background: #fff; transform: none !important; }
 </style>
 
 <section class="page-hero">
@@ -44,7 +45,7 @@
     <div class="container">
         <div class="split-row">
             <div class="split-image reveal-left">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" alt="Jewellery Training Programs">
+                <img src="<?= $path_prefix ?>Jewellery_img.png" alt="Jewellery Training Programs">
                 <div class="split-image-accent"><i class="fas fa-graduation-cap"></i></div>
             </div>
             <div class="split-content reveal-right">
